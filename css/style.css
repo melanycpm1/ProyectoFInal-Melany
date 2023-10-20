@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+/*
+font-family: 'Lora', serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+/*header .navbar{
+    width: 100%;
+    height: 100%;
+}*/
+
+header section .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: #edf2f4;
+    box-shadow: 0 0 10px #001524;
+    
+}
+header section .navbar .img_pricipal{
+    width: 100px; 
+    cursor: pointer;
+    
+}
+header section .navbar .ul_navbar{
+    list-style: none;
+}
+header section .navbar .ul_navbar .li_navbar{
+    display: inline-block;
+    margin: 0px 15px;
+    
+}
+header section .navbar .ul_navbar .li_navbar:hover{
+    transform: scale(1.1);
+    
+}
+header section .navbar .ul_navbar .li_navbar .href_navbar{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #0d1321;
+}
+header section .navbar .ul_navbar .li_navbar .href_navbar:hover{
+    color: #fca311;
+}
+header section .navbar .ul_navbar .li_navbar::after{
+    content: ' ';
+    background-color: #fca311;
+    width: 0%;
+    display: block;
+    height: 2px;
+    transition: 0.2 linear;
+}
+header section .navbar .ul_navbar .li_navbar:hover::after{
+    width: 100%
+}
+.iconos{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.iconos:hover{
+    color: #fca311;
+}
