@@ -27,7 +27,6 @@
                 </div>
             </nav>
         </section>
-
     </header>
     <main>
         <section>
@@ -510,33 +509,33 @@
                     <img src="./assets/img/order_image.png" alt="">
                 </div>
 
-                <form action="">
+                <form action="https://formspree.io/f/mdorzwyk" method="POST">
                     <div>
-                        <label for="name">nombre</label><br>
-                        <input type="text" id="name" placeholder="tu nombre" required>
+                        <label for="name">Nombre</label><br>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required autocomplete="name">
                     </div>
                     <div>
                         <label for="email">Email</label><br>
-                        <input type="email" id="email" placeholder="tu email" required>
+                        <input type="email" id="email" name="email" placeholder="Tu email" required autocomplete="email">
                     </div>
                     <div>
-                        <label for="numero">Numero</label><br>
-                        <input type="tel" id="numero" placeholder="tu numero" required>
+                        <label for="numero">Número</label><br>
+                        <input type="tel" id="numero" name="numero" placeholder="Tu número" required autocomplete="tel">
                     </div>
                     <div>
-                        <label for="many">Cantidad de la orden</label><br>
-                        <input type="number" id="many" placeholder="cantidad de orden" required>
+                        <label for="cantidad">Cantidad de la orden</label><br>
+                        <input type="number" id="cantidad" name="cantidad" placeholder="Cantidad de orden" required autocomplete="off">
                     </div>
                     <div>
-                        <p>Nombre de la comida</p>
-                        <input placeholder="nombre de la comida" required>
+                        <label for="nombre_comida">Nombre de la comida</label><br>
+                        <input type="text" id="nombre_comida" name="nombre_comida" placeholder="Nombre de la comida" required autocomplete="off">
                     </div>
                     <div>
-                        <p>Direccion</p>
-                        <input placeholder="tu dirrecion" required>
+                        <label for="direccion">Dirección</label><br>
+                        <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required autocomplete="address-line1">
                     </div>
-
-                    <button><a href="" >ordenar ahora <i class="fa-solid fa-angle-right"></i></a></button>
+                    
+                    <button type="submit">Ordenar ahora</button>
                 </form>
             </div>
         </section>
@@ -574,7 +573,7 @@
                     <ul>
                         <li>Contáctanos</li>
                         <li>Empleo</li>
-                        <li>Deli­very</li>
+                        <li>Delivery</li>
                         <li>Política de privacidad</li>
                         <li>Defensa de las y los consumidores</li>
                     </ul>
