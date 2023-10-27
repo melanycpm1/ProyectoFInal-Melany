@@ -511,6 +511,62 @@ main .grid_locales .contenedor_locales .direccion_locales{
 }
 
 /*fin de locales*/
+/*novedades*/
+.contenedor_titulo_novedades{
+    display: flex;
+    position: relative;
+    top: 130px;
+    justify-content: center;
+}
+.contenedor_titulo_novedades .titulo_novedades{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 500;
+    color: #0d1321;
+    text-decoration: underline;
+}
+.grid_novedades{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    position: relative;
+    top: 200px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.grid_novedades .contenedor_nov{
+    margin-bottom: 5%;
+}
+.grid_novedades .contenedor_nov .img_nov{
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px #001524 ;
+}
+.grid_novedades .contenedor_nov .contenedor_texto_novedades{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    line-height: 20px;
+}
+.grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+    margin-top: 6%;
+}
+.grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades{
+    margin-top: 4%;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    line-height: 20px;
+}
+.footer_nov{
+    position: relative;
+    top: 200px;
+}
+/*fin de novedades*/
 @media(max-width:1460px){
     main .parrafo_principal, main .btn_ordenar {
         left: 68px;
