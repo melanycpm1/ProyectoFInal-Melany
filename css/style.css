@@ -453,7 +453,64 @@ main .titulo_opiniones{
     color: #0d1321;
     text-decoration: none;
 }
+/*locales*/
 
+main .contenedor_titulo_locales{
+    display: flex;
+    position: relative;
+    top: 130px;
+    justify-content: center;
+}
+main .contenedor_titulo_locales .titulo_locales{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 500;
+    color: #0d1321;
+    text-decoration: underline;
+}
+
+main .mapa_locales{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 190px;
+    width: 90%;
+}
+.grid_locales{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    position: relative;
+    top: 400px;
+    justify-items: center;
+}
+.footer_locales{
+    position: relative;
+    top:420px;
+}
+main .grid_locales .contenedor_locales{
+    background-color: #fca311 ;
+    width: 80%;
+    padding: 20% 10%;
+    margin-bottom: 9%;
+    box-shadow: 0 0 10px  #001524;
+    text-align: center;
+    cursor: pointer;
+}
+
+main .grid_locales .contenedor_locales .nombre_locales{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+}
+main .grid_locales .contenedor_locales .direccion_locales{
+    position: relative;
+    top: 20px;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    color: #0d1321;
+}
+
+/*fin de locales*/
 @media(max-width:1460px){
     main .parrafo_principal, main .btn_ordenar {
         left: 68px;
@@ -913,23 +970,6 @@ main .titulo_opiniones{
     main .parrafo_principal, main .btn_ordenar {
         left: 39px;
     }
-    /*main .about_main {
-        flex-direction: column-reverse;
-    }
-    main .about_main .sobre_yellow {
-        text-align: center;
-        margin-top: 30%;
-    }
-    .titulo_elegirnos {
-        text-align: center;
-    }
-    .about_main .parrafo_nosotros{
-        text-align: center;
-    }
-    main .btn_ordena {
-        left: 33%;
-        bottom: 400px;
-    }*/
     main .menu_box {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(4,1fr);
