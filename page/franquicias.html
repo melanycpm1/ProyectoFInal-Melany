@@ -33,58 +33,60 @@
             </section>
         </header>
         <main>
-            <!--<img src="../assets/img-franquicias/food.jpg" alt="">-->
             <section>
-                <div>
-                    <h1>Franquicias</h1>
-                    <p>FOOD es una empresa fundada por profesionales argentinos de excelente trayectoria.<br>
+                <img src="../assets/img-franquicias/food.jpg" alt="" class="img_franquicia">
+            </section>
+            <section class="contenedor_franquicias">
+                <div class="contenedor_titulo_principal">
+                    <h1 class="h1_franqucias">Franquicias</h1>
+                    <p class="parrafo_franquicias">FOOD es una empresa fundada por profesionales argentinos de excelente trayectoria.<br>
                         Actualmente la marca cuenta con un sólido posicionamiento y con más de 150 sucursales<br>
                         distribuidas en las plazas más importantes del país.</p>
                 </div>
-                <div>
+                <div class="grid_four">
                     <div>
-                        <p>VIDEO FRANQUICIA</p>
+                        <p class="parrafo_grid_franquicias">VIDEO FRANQUICIA</p>
                     </div>
                     <div>
-                        <p>MAS INFORMACION</p>
+                        <p class="parrafo_grid_franquicias">MAS INFORMACION</p>
                     </div>
                     <div>
-                        <p>FICHA TECNICA</p>
+                        <p class="parrafo_grid_franquicias">FICHA TECNICA</p>
                     </div>
                     <div>
-                        <p>CONTACTANOS</p>
+                        <p class="parrafo_grid_franquicias">CONTACTANOS</p>
                     </div>
                 </div>
             </section>
 
             <section>
                 <div>
-                    <h2>Franquicias</h2>
+                    <h2 class="titulo_franquicias">Formulario</h2>
                 </div>
                 <div>
-                    <div>
+                    <div class="contenedor_parrafo_form">
                         <p>Completá este formulario para saber más de nuestras franquicias</p>
                     </div>
                     <div>
-                        <form  action="https://formspree.io/f/mdorzwyk" method="POST">
+                        <form  action="https://formspree.io/f/mdorzwyk" method="POST" class="formulario_cont">
                             <div>
                                 <label for="nombre"></label>
-                                <input type="text" id="nombre" placeholder="nombre*"  autocomplete="given-name"> required>
+                                <input type="text" id="nombre" placeholder="nombre*"  autocomplete="given-name" required class="input_franquicias">
                             </div>
                             <div>
                                 <label for="apellido"></label>
-                                <input type="text" id="apellido" placeholder="apellido*" autocomplete="family-name" required>
+                                <input type="text" id="apellido" placeholder="apellido*" autocomplete="family-name" required  class="input_franquicias">
                             </div>
                             <div>
                                 <label for="email"></label>
-                                <input type="email" id="email" placeholder="email*" autocomplete="email" required>
+                                <input type="email" id="email" placeholder="email*" autocomplete="email" required  class="input_franquicias">
                             </div>
                             <div>
                                 <label for="telefono"></label>
-                                <input type="tel" id="telefono" placeholder="telefono*" autocomplete="tel" required>
+                                <input type="tel" id="telefono" placeholder="telefono*" autocomplete="tel" required  class="input_franquicias">
                             </div>
                             <div>
-                                    <select name="conocieron" id="seleccion" required>
+                                    <select name="conocieron" id="seleccion" required  class="input_franquicias">
                                         <option value="conocieron?">como nos conocieron?</option>
                                         <option value="publicidad">publicidad</option>
                                         <option value="Ticket">Ticket Local</option>
@@ -94,7 +96,7 @@
                                     </select>
                             </div>
                             
-                            <input type="submit" value="Enviar" />
+                            <input type="submit" value="Enviar" class="btn_franquicias"/>
                         </form>
                     </div>
 
@@ -102,17 +104,18 @@
 
             </section>
         </main>
-        <footer>
-            <section>
+        <footer class="footer footer_franquicias">
+            <section class="contenedor_items">
                 <div>
                     <div>
                         <h4>Info Food</h4>
                     </div>
                     <div>
-                        <ul>
-                            <li>Restaurantes</li>
-                            <li>Cupones</li>
-                            <li>Minutos FOOD</li>
+                        <ul class="contenedo_li">
+                            <li class="li_footer"><a href="#"  class="a_footer">Restaurantes</a></li>
+                            <li class="li_footer"><a href="#"  class="a_footer">Restaurantes</a></li>
+                            <li class="li_footer"><a href="#"  class="a_footer">Cupones</a></li>
+                            <li class="li_footer"><a href="#"  class="a_footer">Minutos FOOD</a></li>
                         </ul>
                     </div>
                 </div>
@@ -121,9 +124,9 @@
                         <h4>Información</h4>
                     </div>
                     <div>
-                        <ul>
-                            <li>Sitemap</li>
-                            <li>March</li>
+                        <ul class="contenedo_li">
+                            <li class="li_footer"><a href="#" class="a_footer">Sitemap</a></li>
+                            <li class="li_footer"><a href="#" class="a_footer">March</a></li>
                         </ul>
                     </div>
                 </div>
@@ -132,12 +135,12 @@
                         <h4>My FOOD</h4>
                     </div>
                     <div>
-                        <ul>
-                            <li>Contáctanos</li>
-                            <li>Empleo</li>
-                            <li>Delivery</li>
-                            <li>Política de privacidad</li>
-                            <li>Defensa de las y los consumidores</li>
+                        <ul class="contenedo_li">
+                            <li class="li_footer"><a href="#" class="a_footer">Contáctanos</a></li>
+                            <li class="li_footer"><a href="#" class="a_footer">Empleo</a></li>
+                            <li class="li_footer"><a href="#" class="a_footer">Delivery</a></li>
+                            <li class="li_footer"><a href="#" class="a_footer">Política de privacidad</a></li>
+                            <li class="li_footer"><a href="#" class="a_footer">Defensa de las y los consumidores</a></li>
                         </ul>
                     </div>
                 </div>
