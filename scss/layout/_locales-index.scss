@@ -1,0 +1,43 @@
+.contenedor_titulo_locales{
+    @include flex (center,row, nowrap,normal);
+    position: relative;
+    top: 130px;
+    font-family: 'Rubik', sans-serif;
+    font-size: map-get($map: $font-size, $key:font-50px);
+    font-weight: 500;
+    color: $color_texto;
+    text-decoration: underline;
+}
+.mapa_locales{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 190px;
+    width: 90%;
+}
+.grid_locales{
+    @include grid (repeat(4,1fr),repeat(2,1fr));
+    position: relative;
+    top: 400px;
+    justify-items: center;
+    .contenedor_locales{
+        background-color: $color-principal ;
+        width: 80%;
+        padding: 20% 10%;
+        margin-bottom: 9%;
+        box-shadow: 0 0 10px  $color_sombra;
+        text-align: center;
+        cursor: pointer;
+        .nombre_locales{
+            font-family: 'Rubik', sans-serif;
+            font-size: map-get($map: $font-size, $key: font-25px);
+        }
+        .direccion_locales{
+            position: relative;
+            top: 20px;
+            font-family: 'Lora', serif;
+            font-size: map-get($map: $font-size, $key:font-13px );
+            color: $color_texto;
+        }
+    }
+}

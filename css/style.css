@@ -343,6 +343,58 @@ main .a_general {
   color: #f8f9fa;
 }
 
+.contenedor_titulo_locales {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: normal;
+  position: relative;
+  top: 130px;
+  font-family: "Rubik", sans-serif;
+  font-size: 3.125rem;
+  font-weight: 500;
+  color: #0d1321;
+  text-decoration: underline;
+}
+
+.mapa_locales {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 190px;
+  width: 90%;
+}
+
+.grid_locales {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  position: relative;
+  top: 400px;
+  justify-items: center;
+}
+.grid_locales .contenedor_locales {
+  background-color: #fca311;
+  width: 80%;
+  padding: 20% 10%;
+  margin-bottom: 9%;
+  box-shadow: 0 0 10px #001524;
+  text-align: center;
+  cursor: pointer;
+}
+.grid_locales .contenedor_locales .nombre_locales {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5625rem;
+}
+.grid_locales .contenedor_locales .direccion_locales {
+  position: relative;
+  top: 20px;
+  font-family: "Lora", serif;
+  font-size: 0.8125rem;
+  color: #0d1321;
+}
+
 .footer {
   margin-top: 10%;
   margin-bottom: 3%;
