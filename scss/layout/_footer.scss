@@ -1,0 +1,20 @@
+.footer{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    .contenedor_items{
+        @include flex (space-around, row, nowrap, flex-start);
+        .contenedo_li{
+            list-style: none;
+            .li_footer{
+                margin: 7% 0;
+                .a_footer{
+                    font-family: 'Lora', serif;
+                    font-weight: 500;
+                    font-size: map-get($map: $font-size, $key:font-13px);
+                    color: #0d1321;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

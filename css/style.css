@@ -411,6 +411,31 @@ main .contenedor_extrella {
   color: #f8f9fa;
 }
 
+.footer {
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.footer .contenedor_items {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.footer .contenedor_items .contenedo_li {
+  list-style: none;
+}
+.footer .contenedor_items .contenedo_li .li_footer {
+  margin: 7% 0;
+}
+.footer .contenedor_items .contenedo_li .li_footer .a_footer {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  color: #0d1321;
+  text-decoration: none;
+}
+
 /*components*/
 /*querry*/
 
