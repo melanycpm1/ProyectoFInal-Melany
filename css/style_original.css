@@ -1,0 +1,1900 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora:wght@400;500&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+/*
+font-family: 'Lora', serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+/*header .navbar{
+    width: 100%;
+    height: 100%;
+}*/
+
+header section .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: #edf2f4;
+    box-shadow: 0 0 10px #001524;
+    z-index: 1000;
+}
+header section .navbar .img_pricipal{
+    width: 100px; 
+    cursor: pointer;
+    
+}
+header section .navbar .ul_navbar{
+    list-style: none;
+}
+header section .navbar .ul_navbar .li_navbar{
+    display: inline-block;
+    margin: 0px 15px;
+    
+}
+header section .navbar .ul_navbar .li_navbar:hover{
+    transform: scale(1.1);
+    
+}
+header section .navbar .ul_navbar .li_navbar .href_navbar{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #0d1321;
+}
+header section .navbar .ul_navbar .li_navbar .href_navbar:hover{
+    color: #fca311;
+}
+header section .navbar .ul_navbar .li_navbar::after{
+    content: ' ';
+    background-color: #fca311;
+    width: 0%;
+    display: block;
+    height: 2px;
+    transition: 0.2 linear;
+}
+header section .navbar .ul_navbar .li_navbar:hover::after{
+    width: 100%
+}
+.iconos{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.iconos:hover{
+    color: #fca311;
+}
+main .flex-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+main .flex-main .h1_index{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 500;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    line-height: 3.125rem;
+    color: #0d1321;
+}
+main .flex-main .h1_index .comida_yellow{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5.200rem;
+    color: #fca311;
+    text-decoration:underline;
+
+}
+main .flex-main .img_princi{
+    width: 680px;
+    position: relative;
+    left: 20px;
+}
+main .parrafo_principal{
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    position: relative;
+    left: 70px;/*5%*/
+    top: -150px;
+    line-height: 22px;
+    width: 50%;
+    color: #0d1321;
+}
+
+main .btn_ordenar{
+    padding: 7px 15px;
+    background-color: #fca311;
+    border: none;
+    position: relative;
+    left: 70px;/*5%*/
+    top:-80px ;
+}
+main .a{
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+main .icono_btn{
+    transition: 0.3s;
+}
+.btn_ordenar:hover i{
+    transform: translateX(7px);
+}
+main .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main .about_main .img_salmon{
+    width: 800px;
+    position: relative;
+    left: 20px;
+    top: 125px;
+    animation-name: imagen_salmon;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-delay: 0s;
+}
+
+main .about_main .sobre_yellow{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.9375rem;
+    color: #fca311;
+    font-weight: 500;
+    position: relative;
+    bottom: 50px;
+}
+main .about_main .sobre_yellow .nosotros_black{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    color: #0d1321;;
+    margin-left: 2%;
+}
+main .about_main .titulo_elegirnos{
+    font-size: 1.875rem;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    bottom:35px;
+    color: #0d1321;
+}
+
+.about_main .parrafo_nosotros{
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    width: 450px;
+    color: #0d1321;
+    line-height: 22px;
+}
+main .btn_ordena{
+    padding: 7px 15px;
+    background-color: #fca311;
+    border: none;
+    position: relative;
+    left: 66%;
+    bottom: 180px;
+}
+.a_general{
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+/**/
+
+
+main .titulo_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    color: #0d1321;
+    margin-top: 7%;
+}
+main .titulo_menu .menu_yellow{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.9375rem;
+    color: #fca311;
+    font-weight: 500;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+main .menu_box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    text-align: center;
+    justify-items: center;
+    margin-top: 4%;
+}
+main .menu_box .menu_card{
+    box-shadow: 0 0 10px #001524;
+    height: 570px;
+    width: 325px;
+    margin-bottom: 19%;
+    
+}
+main .menu_box .menu_card:hover{
+    transform: scale(1.1);
+}
+main .menu_box .menu_card .img_menu{
+    width: 85%;
+    height: 250px;
+    position: relative;
+    top: 20px;
+}
+main .menu_box .menu_card:hover .img_menu{
+    filter: opacity(80%);
+}
+main .corazon{
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+    cursor: pointer;
+}
+main .nombre_productos{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+    margin:6% 0;
+    color: #fca311;
+}
+main .parrafo_producto{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    line-height: 20px;
+}
+main .precio_producto_hambuguesa{
+    font-family: 'Lora', serif;
+    font-size:1.125rem;
+    font-weight: 500;
+    /* margin: 3% 0%;*/
+    position: relative;
+    top: 40px;
+
+}
+main .contenedor_extrella{
+    position: relative;
+    top: 50px;
+    color: #fca311;
+    
+}
+main .btn_ordenar_productos{
+    padding: 2% 4%;
+    background-color: #22223b;
+    margin-top: 4%;
+    border: none;
+    position: relative;
+    top: 55px;
+}
+
+
+/**/
+
+
+
+
+
+main .titulo_galeria{
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #0d1321;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 30px;
+}
+main .palabra_yellow{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.9375rem;
+    color: #fca311;
+    font-weight: 500;
+    text-decoration: underline;
+}
+main .grid_galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+main .grid_galeria .img_galeria{
+    width: 90%;
+    margin-bottom: 4%;
+}
+main .grid_galeria .img_galeria:hover{
+    filter: grayscale(90%);
+}
+/**/
+
+
+main .titulo_opiniones{
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #0d1321;
+    margin-top: 7%;
+    margin-bottom: 11%;
+}
+.grid_opiniones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-items: center
+}
+.img_usuarios{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow:  0 0 10px #001524;
+    position: relative;
+    bottom: 90px;
+}
+.contenedor_usuarios{
+    width: 355px;
+    height: 450px;
+    border-radius: 25px;
+    box-shadow:0 0 10px #001524;
+    text-align: center;
+    
+}
+.nombre_usuario{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+    color: #0d1321;
+    position: relative;
+    bottom: 70px;
+}
+.contenedor_extrellas{
+    position: relative;
+    bottom: 60px;
+    color: #fca311;
+}
+.contenedor_redes{
+    position: relative;
+    bottom: 40px;
+}
+.parrafo_usuario{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    line-height: 20px;
+}
+.redes{
+    cursor: pointer;
+}
+/**/
+.titulo_ordena{
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fca311;
+    margin:6% 0;
+    align-items: baseline
+}
+.ahora_yellow{
+    margin-left: 1%;
+    color: #0d1321;
+}
+.formularios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_form{
+    width: 70%;
+}
+.nombre_form{
+    font-family: 'Lora', serif;
+    font-size: 1.0625rem;
+}
+.contendor_fom{
+    margin: 5% 0;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    background-color: #ced4da;
+    border: 1px solid #001524;
+    border-radius: 3px;
+}
+.btn_ordenar_form{
+    padding: 3% 4%;
+    background-color: #fca311;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+.form{
+    position: relative;
+    bottom: 45px;
+}
+/**/
+.footer{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.contenedor_items{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.contenedo_li{
+    list-style: none;
+}
+.li_footer{
+    margin: 7% 0;
+}
+.a_footer{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: .6875rem;
+    color: #0d1321;
+    text-decoration: none;
+}
+/*locales*/
+
+main .contenedor_titulo_locales{
+    display: flex;
+    position: relative;
+    top: 130px;
+    justify-content: center;
+}
+main .contenedor_titulo_locales .titulo_locales{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 500;
+    color: #0d1321;
+    text-decoration: underline;
+}
+
+main .mapa_locales{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 190px;
+    width: 90%;
+}
+.grid_locales{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    position: relative;
+    top: 400px;
+    justify-items: center;
+}
+.footer_locales{
+    position: relative;
+    top:420px;
+}
+main .grid_locales .contenedor_locales{
+    background-color: #fca311 ;
+    width: 80%;
+    padding: 20% 10%;
+    margin-bottom: 9%;
+    box-shadow: 0 0 10px  #001524;
+    text-align: center;
+    cursor: pointer;
+}
+
+main .grid_locales .contenedor_locales .nombre_locales{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+}
+main .grid_locales .contenedor_locales .direccion_locales{
+    position: relative;
+    top: 20px;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    color: #0d1321;
+}
+
+/*fin de locales*/
+/*novedades*/
+.contenedor_titulo_novedades{
+    display: flex;
+    position: relative;
+    top: 130px;
+    justify-content: center;
+}
+.contenedor_titulo_novedades .titulo_novedades{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 500;
+    color: #0d1321;
+    text-decoration: underline;
+}
+.grid_novedades{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    position: relative;
+    top: 200px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.grid_novedades .contenedor_nov{
+    margin-bottom: 5%;
+}
+.grid_novedades .contenedor_nov .img_nov{
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px #001524 ;
+}
+.grid_novedades .contenedor_nov .contenedor_texto_novedades{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    line-height: 20px;
+}
+.grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+    margin-top: 6%;
+}
+.grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades{
+    margin-top: 4%;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    line-height: 20px;
+}
+.footer_nov{
+    position: relative;
+    top: 200px;
+}
+/*fin de novedades*/
+
+/*franquicias*/
+main .img_franquicia{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    filter: opacity(50%);
+}
+.contenedor_titulo_principal{
+    z-index: 900;
+    position: relative;
+    bottom: 480px;
+}
+.h1_franqucias{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 500;
+    color: #0d1321;
+    display: flex;
+    justify-content: center
+}
+.parrafo_franquicias{
+    font-family: 'Lora', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0d1321;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.grid_four{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    position: relative;
+    bottom: 430px;
+    justify-items: center
+    
+}
+.parrafo_grid_franquicias{
+    width: 280px;
+    height: 280px;
+    background-color: #fca311;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-left: 50px;*/
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    border: 4px solid #f8f9fa;
+    cursor: pointer;
+}
+.titulo_franquicias{
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    color: #0d1321;
+}
+.contenedor_parrafo_form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 270px;
+    font-family: 'Lora', serif;
+    font-size: .8125rem;
+    color: #0d1321;
+}
+.formulario_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+}
+.input_franquicias{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.btn_franquicias{
+    padding: 1% 4%;
+    background-color: #fca311;
+    border: none;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+/*fin de franquuicias*/
+/**/
+.encuesta_yellow{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5.200rem;
+    color: #fca311;
+    text-decoration: underline;
+}
+.ctndo_encuesta{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    color: #0d1321;
+
+}
+.ctnedor_parrafo{
+    position: relative;
+    top: 200px;
+    font-family: 'Lora', serif;
+    font-size: 1.875rem;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+.contenedor_formulario_encuesta{
+    position: relative;
+    top: 300px;
+    left: 30px;
+    width: 95%;
+}
+.formu{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5625rem;
+    color: #fca311;
+}
+.contenedor_opciones{
+    font-family: 'Lora', serif;
+    font-size: 1.0625rem;
+    position: relative;
+    top: 10px;
+}
+.btn_enviar_encuesta{
+    padding: 1% 3%;
+    background-color: #fca311;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+}
+.footer_encuesta{
+    margin-top: 20%;
+    position: relative;
+    top: 250px;
+}
+@media(max-width:1460px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 68px;
+    }
+    main .flex-main .img_princi {
+        top: 19px;
+        width: 640px;
+        left: -10px;
+    }
+    main .about_main {
+        margin: 5% 0;
+    }
+    .about_main .parrafo_nosotros {
+        position: relative;
+        left: 9px;
+    }
+    main .btn_ordena{
+        left: 66.2%;
+        bottom: 250px;
+    }
+    main .about_main .img_salmon {
+        top: 115px;
+    }
+    main .menu_box .menu_card {
+        height: 520px;
+        width: 275px;
+    
+    }
+    main .menu_box .menu_card .img_menu {
+        width: 80%;
+        height: 200px;
+    }
+    main .corazon {
+        bottom: 160px;
+        left: 90px
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: 1.4875rem;
+    }
+    .ctnedor_parrafo {
+        font-size: 1.075rem;
+    }
+    .contenedor_formulario_encuesta {
+        width: 90%;
+    }
+}
+@media(max-width:1425px){
+    main .flex-main .img_princi{
+        width: 620px;
+    }
+    main .flex-main .h1_index {
+        font-size: 2.8125rem;
+    }
+    
+    main .parrafo_principal{
+        width: 45%;
+    }
+    main .parrafo_principal, main .btn_ordenar{
+        left: 78px;
+    }
+    .contenedor_usuarios {
+        width: 345px;
+        height: 440px;
+    }
+}
+
+
+@media(max-width:1403px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 70px;
+    }
+}
+@media(max-width:1361px){
+    main .flex-main .h1_index {
+        font-size: 2.375rem;
+        left: 37px;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 4.75rem
+    }
+    main .about_main .sobre_yellow,main .titulo_menu .menu_yellow,.palabra_yellow {
+        font-size: 3.4375rem;
+    }
+    main .about_main .sobre_yellow .nosotros_black,main .titulo_menu,.titulo_ordena,main .titulo_galeria {
+        font-size: 2.1875rem;
+    }
+    main .menu_box{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    main .about_main .titulo_elegirnos{
+        font-size: 1.5625rem;
+    }
+    main .btn_ordena{
+        left: 65.5%;
+    }
+    main .menu_box .menu_card {
+        height: 500px;
+        width: 265px;
+        margin-bottom: 30%;
+    }
+    main .precio_producto_hambuguesa {
+        top: 15px;
+    }
+    main .contenedor_extrella {
+        top: 20px;
+    }
+    main .btn_ordenar_productos {
+        top: 25px;
+    }
+    .contenedor_usuarios {
+        width: 325px;
+        height: 420px;
+    }
+    .img_usuarios {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+@media(max-width:1326px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 64px;
+    }
+    main .btn_ordena {
+        left: 65%;
+    }
+}
+
+
+@media(max-width:1237px){
+    main .flex-main .h1_index {
+        font-size: 2.1875rem;
+        left: 37px;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 4.375rem;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 51px;
+    }
+    main .parrafo_principal,.about_main .parrafo_nosotros,main .parrafo_producto,.parrafo_usuario {
+        font-family: 'Lora', serif;
+        font-size: .6875rem;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 54px;
+    }
+    .about_main .parrafo_nosotros {
+        width: 300px;
+        left: 6px;
+    }
+    main .btn_ordena {
+        bottom: 230px;
+        left: 73.5%;
+    }
+    main .about_main .sobre_yellow, main .titulo_menu .menu_yellow,main .palabra_yellow,.titulo_ordena {
+        font-size: 3.125rem;
+    }
+    main .about_main .sobre_yellow .nosotros_black,main .titulo_menu,main .titulo_galeria,main .titulo_opiniones,.ahora_yellow {
+        font-size: 1.875rem;
+    }
+}
+@media(max-width:1210px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 45px;
+    }
+    main .about_main .titulo_elegirnos {
+        font-size: 1.25rem;
+    }
+    main .menu_box .menu_card .img_menu {
+        width: 83%;
+        height: 180px;
+    }
+    main .menu_box .menu_card {
+        height: 450px;
+        width: 245px;
+    }
+    main .corazon {
+        bottom: 145px;
+        left: 80px;
+    }
+    main .precio_producto_hambuguesa {
+        top: 6px;
+    }
+    main .contenedor_extrella {
+        top: 10px;
+    }
+    main .btn_ordenar_productos {
+        top: 13px;
+    }
+    .form {
+        right: 60px;
+    }
+    .img_form {
+        width: 65%;
+    }
+}
+@media(max-width:1178px){
+    main .about_main .img_salmon {
+        left: -30px;
+    }
+    main .flex-main .h1_index {
+        left: 1.5625rem;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 3.4375rem;
+    }
+    main .flex-main .img_princi {
+        width: 600px;
+        top: -10px;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 40px;
+    }
+    main .parrafo_principal {
+        width: 43%;
+    }
+    main .about_main .sobre_yellow, main .titulo_menu .menu_yellow, main .palabra_yellow, .titulo_ordena {
+        font-size: 1.5625rem;
+    }
+    main .about_main .sobre_yellow .nosotros_black, main .titulo_menu, main .titulo_galeria, main .titulo_opiniones, .ahora_yellow {
+        font-size: 1.5625rem;
+    }
+    main .about_main .titulo_elegirnos {
+        font-size: .9375rem;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 40px;
+    }
+    main .about_main .img_salmon{
+        top: 70px;
+        left:20px
+    }
+    .about_main .parrafo_nosotros {
+        width: 250px;
+    }
+    main .btn_ordena {
+        bottom: 280px;
+        left: 76.7%;
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media(max-width:1118px){
+    main .flex-main .h1_index {
+        font-size: 1.5625rem;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 45px;
+    }
+    main .parrafo_principal{
+        font-size: .5938rem;
+        width: 35%;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 59px;
+    }
+    main .about_main .img_salmon {
+        width: 700px;
+    }
+    main .about_main .sobre_yellow,main .about_main .titulo_elegirnos {
+        left: -60px;
+    }
+    .about_main .parrafo_nosotros{
+        left: -55px;
+    }
+    main .btn_ordena{
+        bottom: 230px;
+        left: 68.9%;
+    }
+    main .menu_box .menu_card .img_menu {
+        width: 80%;
+        height: 145px;
+    }
+    main .menu_box .menu_card {
+        height: 400px;
+        width: 215px;
+    }
+    main .corazon {
+        bottom: 112px;
+        left: 70px;
+    }
+    main .grid_galeria .img_galeria {
+        width: 80%;
+    }
+    main .nombre_productos,.nombre_usuario {
+        font-size: 1.25rem;
+    }
+    main .parrafo_producto,.parrafo_usuario{
+        font-size:.5938rem;
+        width: 70%;
+    }
+    main .precio_producto_hambuguesa {
+        font-size: .9375rem;
+    }
+    .contenedor_usuarios{
+        width: 275px;
+        height: 370px;
+    }
+    .nombre_usuario{
+        bottom: 80px;
+    }
+    .contenedor_extrellas {
+        bottom: 70px
+    }
+    .contenedor_redes {
+        bottom: 60px;
+    }
+    main .parrafo_producto, .parrafo_usuario {
+        bottom: 55px;
+    }
+    
+}
+
+@media(max-width:1067px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 47px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: 20px;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 250px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.25rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        margin-top: 4%;
+        font-family: 'Lora', serif;
+        font-size: .625rem;
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 200px;
+        height: 200px;
+        font-size: 1rem;
+    }
+    .titulo_franquicias {
+        bottom: 250px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 220px
+    }
+    .parrafo_franquicias {
+        font-size: .9375rem;
+    }
+    /*encuesta*/
+    .encuesta_yellow {
+        font-size: 3.200rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .945rem;
+    }
+}
+@media(max-width:1024px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 35px;
+    }
+}
+
+@media(max-width:984px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 28px;
+        
+    }
+    main .menu_box .menu_card .img_menu {
+        height: 130px;
+    }
+    main .menu_box .menu_card {
+        height: 370px;
+        width: 190px;
+    }
+    main .parrafo_producto, .parrafo_usuario {
+        width: 75%;
+    }
+    main .parrafo_principal, .about_main .parrafo_nosotros, main .parrafo_producto, .parrafo_usuario {
+        font-family: 'Lora', serif;
+        font-size: .4375rem;
+    }
+    main .flex-main .h1_index {
+        font-size: 1.25rem;
+        left: 13px;
+        line-height: 27px;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 40px;
+    }
+    main .corazon {
+        bottom: 100px;
+        left: 60px;
+    }
+}
+@media(max-width:943px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 19px;
+    }
+    main .btn_ordena {
+        left: 67.8%;
+    }
+    main .flex-main .h1_index {
+        font-size: .9375rem;
+        left: -30px;
+    
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 2rem;
+    }
+    main .flex-main .img_princi {
+        width: 500px;
+        top: -10px;
+    }
+    main .parrafo_principal {
+        top: -120px;
+    }
+    main .about_main .img_salmon {
+        width: 500px;
+    }
+    main .btn_ordena {
+        left: 61%;
+        bottom: 160px;
+    }
+    main .menu_box .menu_card .img_menu {
+        height: 120px;
+        width: 78%
+    }
+    main .menu_box .menu_card {
+        height: 360px;
+        width: 170px;
+    }
+    main .corazon {
+        bottom: 88px;
+        left: 50px;
+    }
+    .contenedor_usuarios {
+        width: 250px;
+        height: 350px;
+    }
+    .img_usuarios {
+        width: 120px;
+        height: 120px;
+        bottom: 77px;
+    }
+    /*encuestas*/
+    .ctndo_encuesta {
+        font-size: .9375rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .75rem;
+    }
+    .formu {
+        font-size: 1.25rem;
+    }
+    .contenedor_opciones {
+        font-size: .75rem;
+    }
+}
+@media(max-width:902px){
+    main .flex-main .h1_index {
+        left: -20px;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 200px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: .9375rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .5rem;
+    }
+}
+@media(max-width:838px){
+    main .flex-main .h1_index {
+        left: -5px;
+    }
+    header section .navbar .ul_navbar .li_navbar .href_navbar {
+        font-size: .75rem;
+    }
+
+    /*locales*/
+
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: .9375rem;
+    }
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .625rem;
+    }
+    /*franquicias*/
+    .grid_four {
+        bottom: 330px;
+    }
+    .parrafo_franquicias {
+        top: 50px;
+    }
+    .parrafo_grid_franquicias {
+        width: 170px;
+        height: 170px;
+    }
+    .parrafo_franquicias {
+        font-size: .8125rem;
+    }
+    .titulo_franquicias {
+        bottom: 200px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 160px;
+    }
+    .formulario_cont {
+        bottom: 120px;
+    }
+}
+@media(max-width:791px){
+    main .flex-main .h1_index {
+        left: 9px;
+    }
+    main .menu_box .menu_card {
+        height: 320px;
+        width: 140px;
+    }
+    main .parrafo_producto {
+        line-height: 15px;
+    }
+    main .menu_box .menu_card .img_menu {
+        height: 100px;
+        width: 75%;
+    }
+    main .corazon {
+        bottom: 78px;
+        left: 40px;
+    }
+    main .grid_galeria .img_galeria {
+        width: 60%;
+    }
+    .contenedor_usuarios {
+        width: 200px;
+        height: 300px
+    }
+    .img_usuarios {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media(max-width:768px){
+    header section .navbar .ul_navbar .li_navbar .href_navbar {
+        font-size: .625rem;
+    }
+    main .flex-main .img_princi {
+        width: 400px;
+        left: 30px;
+    }
+    main .parrafo_principal {
+        width: 40%;
+        top: -90px;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 39px;
+    }
+    main .menu_box {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    main .menu_box .menu_card {
+        height: 360px;
+        width: 190px;
+    }
+    main .about_main .img_salmon {
+        width: 400px;
+    }
+    main .menu_box .menu_card .img_menu {
+        height: 120px;
+        width: 80%;
+    }
+    main .grid_galeria .img_galeria {
+        width: 80%;
+    }
+    main .btn_ordena {
+        left: 56.5%;
+        bottom: 130px;
+    }
+    main .titulo_opiniones {
+        margin-bottom: 19%;
+    }
+    
+}
+@media(max-width:716px){
+    main .parrafo_principal, main .btn_ordenar {
+        left: 28px;
+    }
+    main .btn_ordena {
+        left: 54.6%;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 150px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: .625rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .4375rem;
+        line-height: 10px
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 130px;
+        height: 130px;
+        font-size: .700rem;
+    }
+    .parrafo_franquicias {
+        font-size: .6125rem;
+    }
+    .titulo_franquicias {
+        bottom: 100px;
+    }
+    .formulario_cont {
+        bottom: 50px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 80px;
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: .625rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .4375rem;
+    }
+}
+@media(max-width:647px){
+    header section .navbar .ul_navbar .li_navbar .href_navbar {
+        font-size: .4375rem;
+    }
+    main .flex-main .img_princi {
+        width: 300px;
+        left: 20px;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 34px;
+    }
+    main .parrafo_principal {
+        top: -50px;
+    }
+    main .parrafo_principal {
+        width: 40%;
+        top: -50px;
+    }
+    main .btn_ordenar {
+        top: -10px;
+    }
+    main .btn_ordena {
+        left: 52.6%;
+    }
+    .contenedor_usuarios {
+        width: 170px;
+        height: 250px;
+    }
+    .parrafo_usuario {
+        line-height: 10px;
+    }
+    .input {
+        width: 110px;
+        height: 20px;
+        
+    }
+    .form {
+        right: 40px;
+        top: 20px;
+    }
+    .nombre_form {
+        font-family: 'Lora', serif;
+        font-size: .5625rem;
+    }
+    main .menu_box .menu_card {
+        height: 320px;
+        width: 165px;
+    }
+    main .parrafo_producto {
+        line-height: 10px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: .625rem;
+    }
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .5rem;
+    }
+    .grid_locales {
+        top: 300px;
+    }
+}
+@media(max-width:600px){
+    main .about_main .img_salmon {
+        width: 300px;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 23px;
+    }
+    main .about_main .img_salmon {
+        top: 40px;
+        left: -10px;
+    }
+    .contenedor_sobrenosotros{
+        position: relative;
+        left: 35px;
+    }
+    main .btn_ordena {
+        bottom: 85px;
+    }
+}
+@media(max-width:571px){
+    main .flex-main .h1_index {
+        font-size: .625rem;
+        left: -2px;
+    }
+    main .parrafo_principal, .about_main .parrafo_nosotros, main .parrafo_producto, .parrafo_usuario {
+        font-size: .4375rem;
+        line-height: 10px;
+    }
+    main .parrafo_principal {
+        width: 30%;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 1.25rem;
+
+    }
+    .about_main .parrafo_nosotros {
+        width: 200px;
+    }
+    main .btn_ordena {
+        left: 58.6%;
+    }
+    header section .navbar .ul_navbar .li_navbar .href_navbar {
+        font-size: 5.5px;
+    }
+    main .about_main .sobre_yellow .nosotros_black, main .titulo_menu, main .titulo_galeria, main .titulo_opiniones, .ahora_yellow {
+        font-size: .75rem;
+    }
+    main .about_main .sobre_yellow, main .titulo_menu .menu_yellow, main .palabra_yellow, .titulo_ordena {
+        font-size: .9375rem;
+    }
+    header section .navbar {
+        justify-content: normal;
+    }
+    main .about_main .titulo_elegirnos {
+        font-size: .625rem;
+    }
+    main .menu_box .menu_card {
+        height: 300px;
+        width: 155px;
+    }
+    main .menu_box .menu_card .img_menu {
+        height: 100px;
+        width: 80%;
+    }
+    main .nombre_productos, .nombre_usuario{
+        font-size: .9375rem;
+    }
+    .contenedor_usuarios {
+        width: 150px;
+        height: 220px;
+    }
+    .a_footer {
+        font-size: .4375rem;
+    }
+    .iconos {
+        margin: 0px 20px;
+    }
+    
+}
+@media(max-width:536px){
+    header section .navbar .img_pricipal {
+        width: 40px;
+    }
+    
+    main .menu_box .menu_card .img_menu {
+        height: 80px;
+        width: 70%;
+    }
+    main .menu_box .menu_card {
+        height: 280px;
+        width: 135px;
+    }
+    main .corazon {
+        bottom: 58px;
+        left: 35px;
+    }
+    main .flex-main .h1_index {                                                                                  
+        left: 7px;
+    }
+    main .parrafo_principal, .about_main .parrafo_nosotros, main .parrafo_producto, .parrafo_usuario {
+        font-size: .4375rem;
+        line-height: 06px;
+    }
+    .contenedor_usuarios {
+        width: 140px;
+        height: 200px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .375rem;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 100px;
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 100px;
+        height: 100px;
+        font-size: .500rem;
+    }
+    .parrafo_franquicias {
+        top: 70px;
+    }
+    main .img_franquicia {
+        top: 10px;
+    }
+    .contenedor_parrafo_form {
+        font-size: .6125rem;
+    }
+    .input_franquicias {
+        width: 350px
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: .5625rem;
+    }
+    .encuesta_yellow {
+        font-size: 2rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .4063rem;
+    }
+    .formu {
+        font-size: 1rem;
+    }
+    .contenedor_opciones {
+        font-size: .625rem;
+    }
+    .footer_encuesta {
+        top: 350px;
+    }
+}
+@media(max-width:506px){
+    main .flex-main .h1_index {
+        left: 13px;
+    }
+    .contenedor_sobrenosotros {
+        position: relative;
+        left: 48.3px;
+    }
+    header section .navbar .ul_navbar .li_navbar {
+        margin: 0px 10px;
+    }
+    header section .navbar .ul_navbar .li_navbar {
+        margin: 0px 7px;
+    }
+    .contenedor_sobrenosotros {
+        left: 48px;
+    }
+    main .flex-main .h1_index {
+        left: 22px;
+    }
+    main .menu_box .menu_card {
+        height: 260px;
+        width: 115px;
+    }
+    main .corazon {
+        left: 30px;
+    }
+    .contenedor_usuarios {
+        width: 130px
+    }
+}
+
+@media(max-width:467px){
+    main .flex-main .h1_index {
+        left: 22px;
+    }
+    header section .navbar .img_pricipal {
+        margin-right: 20px;
+    }
+    /*encuesta*/
+    
+}
+
+@media(max-width:426px){
+    header section .navbar {
+        flex-direction: column;
+    }
+    header section .navbar .ul_navbar {
+        list-style: none;
+        margin-bottom: 3%;
+    }
+    header section .navbar .ul_navbar .li_navbar .href_navbar {
+        font-size: .625rem;
+    }
+    header section .navbar .img_pricipal {
+        margin: 0;
+        width: 40px
+    }
+    main .menu_box .menu_card {
+        height: 360px;
+        width: 215px;
+    }
+    main .menu_box {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(12,1fr);
+    }
+    main .flex-main .img_princi {
+        width: 200px;
+        left: 20px;
+    }
+    main .about_main .img_salmon {
+        width: 200px;
+    }
+    main .parrafo_principal{
+        top: -10px;
+        line-height: 10px;
+        width: 40%;
+    }
+    main .btn_ordenar {
+        top: 10px;
+    }
+    main .flex-main .h1_index {
+        left: 7.8px;
+        line-height: 10px;
+        top: -80px;
+    }
+    main .btn_ordena {
+        bottom: 35px;
+        left: 50%;
+    }
+    main .parrafo_producto{
+        line-height: 16px;
+    }
+    .about_main .parrafo_nosotros{
+        line-height: 10px;
+    }
+    main .menu_box .menu_card .img_menu {
+        height: 130px;
+        width: 70%;
+    }
+    main .parrafo_principal, .about_main .parrafo_nosotros, main .parrafo_producto, .parrafo_usuario {
+        font-size: .4375rem;
+    }
+    main .grid_galeria {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .grid_opiniones {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .contenedor_usuarios {
+        width: 230px;
+        height: 300px;
+        margin-bottom: 30%;
+    }
+    .parrafo_usuario{
+        line-height: 15px;
+    }
+    main .titulo_opiniones {
+        margin-bottom: 30%;
+    }
+    /*novedades*/
+    .grid_novedades {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+    }
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 300px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: 1.25rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .8125rem;
+        line-height: 20px;
+    }
+    /*locales*/
+
+    .grid_locales {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: 1.5625rem;
+    }
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .8125rem;
+    }
+    main .grid_locales .contenedor_locales {
+        height: 240px;
+    }
+
+    /*novedades*/
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: .5rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .375rem;
+        line-height: 7px;
+    }
+    
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        margin-bottom: 20px;
+    }
+    .grid_four {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .input_franquicias {
+        width: 300px;
+    }
+    .parrafo_franquicias {
+        font-size: .5125rem;
+    }
+    /*encuesta*/
+    .encuesta_yellow {
+        font-size: 1.625rem;
+    }
+    .ctndo_encuesta {
+        font-size: .4375rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .375rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .375rem;
+    }
+    .contenedor_opciones {
+        font-size: .5rem;
+    }
+}
+@media(max-width:360px){
+    main .flex-main .h1_index {
+        left: 20px;
+    }
+    main .flex-main .h1_index .comida_yellow {
+        font-size: 1rem;
+    }
+    main .btn_ordena {
+        left: 47%;
+    }
+}
+
+@media(max-width:349px){
+    main .parrafo_principal, .about_main .parrafo_nosotros, main .parrafo_producto, .parrafo_usuario {
+        font-size: .3125rem;
+    }
+    main .flex-main .img_princi {
+        width: 150px;
+    }
+    main .btn_ordenar {
+        padding: 7px 5px;
+    }
+    main .parrafo_principal{
+        top: 5px;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 33px;
+    }
+    main .about_main .img_salmon {
+        width: 150px;
+    }
+    .contenedor_sobrenosotros {
+        bottom: -40px;
+    }
+    main .btn_ordena {
+        bottom: -15px;
+        left: 41%;
+        padding: 7px 5px;
+    }
+    main .titulo_menu {
+        margin-top: 20%;
+    }
+}
+@media(max-width:300px){
+    main .about_main .img_salmon {
+        width: 130px;
+        left: 8px;
+    }
+    main .btn_ordenar {
+        padding: 7px 3px;
+    }
+    main .parrafo_principal, main .btn_ordenar {
+        left: 20px;
+    }
+    .contenedor_sobrenosotros {
+        left: 65px;
+    }
+    main .about_main .titulo_elegirnos {
+        bottom: 20px;
+    }
+    main .about_main .sobre_yellow {
+        bottom: 30px;
+    }
+    main .flex-main .h1_index {
+        font-size: .4375rem;
+    }
+    main .flex-main .h1_index {
+        left: 12px;
+    }
+
+}
+@media(max-width:303px){
+    /*navbar*/
+    header section .navbar .ul_navbar .li_navbar {
+        margin: 0px 2px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: 1.25rem;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 200px;
+    }
+    .contenedor_titulo_novedades .titulo_novedades {
+        font-size: 2.8125rem;
+    }
+    /*franquicias*/
+    .input_franquicias {
+        width: 230px;
+    }
+    .h1_franqucias {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.4125rem;
+    }
+    /*encuesta*/
+    .encuesta_yellow {
+        font-size: 1rem;
+    }
+    .formu {
+        font-size: .625rem;
+    }
+    .contenedor_opciones {
+        font-size: .375rem;
+    }
+    /*footer*/
+    .contenedor_items {
+        flex-direction: column-reverse;
+    }
+}
+
+@keyframes imagen_salmon {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(72deg);
+    }
+    25%{
+        transform: rotate(144deg);
+    }
+    50%{
+        transform: rotate(216deg);
+    }
+    75%{
+        transform: rotate(288deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
