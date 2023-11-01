@@ -1,0 +1,49 @@
+.contenedor_titulo_novedades{
+    display: flex;
+    position: relative;
+    top: 130px;
+    justify-content: center;
+    .titulo_novedades{
+        font-family: 'Rubik', sans-serif;
+        font-size: map-get($map: $font-size, $key:font-50px);
+        font-weight: 500;
+        color: $color_texto;
+        text-decoration: underline;
+    }
+}
+
+.grid_novedades{
+    @include grid (repeat(3,1fr),repeat(3,1fr));
+    position: relative;
+    top: 200px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    .contenedor_nov{
+        margin-bottom: 15%;
+        .img_nov{
+            width: 80%;
+            height: 300px;
+            border-radius: 20px;
+            box-shadow: 0 0 7px $color_sombra;
+        }
+        .contenedor_texto_novedades{
+            width: 80%;
+            margin: 0 auto;
+            font-family: 'Lora', serif;
+            font-size: map-get($map: $font-size, $key:font-25px );
+            line-height: 20px;
+            .novedades{
+                font-family: 'Rubik', sans-serif;
+                font-size:map-get($map: $font-size, $key:font-25px );
+                margin-top: 6%;
+            }
+            .parrafo_novedades{
+                margin-top: 4%;
+                font-family: 'Lora', serif;
+                font-size: map-get($map: $font-size, $key:font-13px );
+                line-height: 20px;
+            }
+        }
+    }
+}
