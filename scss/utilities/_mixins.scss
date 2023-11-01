@@ -5,3 +5,9 @@
     flex-wrap: $wrap;
     align-items: $aling;
 }
+
+@mixin grid ($colums,$rows){
+    display: grid;
+    grid-template-columns: $colums;
+    grid-template-rows: $rows;
+}
