@@ -758,7 +758,16 @@ main .img_franquicia{
         bottom: 160px;
         left: 90px
     }
-    
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: 1.4875rem;
+    }
+    .ctnedor_parrafo {
+        font-size: 1.075rem;
+    }
+    .contenedor_formulario_encuesta {
+        width: 90%;
+    }
 }
 @media(max-width:1425px){
     main .flex-main .img_princi{
@@ -955,6 +964,11 @@ main .img_franquicia{
         bottom: 280px;
         left: 76.7%;
     }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 250px;
+        height: 250px;
+    }
 }
 @media(max-width:1118px){
     main .flex-main .h1_index {
@@ -1030,6 +1044,45 @@ main .img_franquicia{
 @media(max-width:1067px){
     main .parrafo_principal, main .btn_ordenar {
         left: 47px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: 20px;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 250px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.25rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        margin-top: 4%;
+        font-family: 'Lora', serif;
+        font-size: .625rem;
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 200px;
+        height: 200px;
+        font-size: 1rem;
+    }
+    .titulo_franquicias {
+        bottom: 250px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 220px
+    }
+    .parrafo_franquicias {
+        font-size: .9375rem;
+    }
+    /*encuesta*/
+    .encuesta_yellow {
+        font-size: 3.200rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .945rem;
     }
 }
 @media(max-width:1024px){
@@ -1120,11 +1173,33 @@ main .img_franquicia{
         height: 120px;
         bottom: 77px;
     }
-    
+    /*encuestas*/
+    .ctndo_encuesta {
+        font-size: .9375rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .75rem;
+    }
+    .formu {
+        font-size: 1.25rem;
+    }
+    .contenedor_opciones {
+        font-size: .75rem;
+    }
 }
 @media(max-width:902px){
     main .flex-main .h1_index {
         left: -20px;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 200px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: .9375rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .5rem;
     }
 }
 @media(max-width:838px){
@@ -1133,6 +1208,38 @@ main .img_franquicia{
     }
     header section .navbar .ul_navbar .li_navbar .href_navbar {
         font-size: .75rem;
+    }
+
+    /*locales*/
+
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: .9375rem;
+    }
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .625rem;
+    }
+    /*franquicias*/
+    .grid_four {
+        bottom: 330px;
+    }
+    .parrafo_franquicias {
+        top: 50px;
+    }
+    .parrafo_grid_franquicias {
+        width: 170px;
+        height: 170px;
+    }
+    .parrafo_franquicias {
+        font-size: .8125rem;
+    }
+    .titulo_franquicias {
+        bottom: 200px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 160px;
+    }
+    .formulario_cont {
+        bottom: 120px;
     }
 }
 @media(max-width:791px){
@@ -1206,6 +1313,7 @@ main .img_franquicia{
     main .titulo_opiniones {
         margin-bottom: 19%;
     }
+    
 }
 @media(max-width:716px){
     main .parrafo_principal, main .btn_ordenar {
@@ -1214,7 +1322,42 @@ main .img_franquicia{
     main .btn_ordena {
         left: 54.6%;
     }
-    
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 150px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: .625rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .4375rem;
+        line-height: 10px
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 130px;
+        height: 130px;
+        font-size: .700rem;
+    }
+    .parrafo_franquicias {
+        font-size: .6125rem;
+    }
+    .titulo_franquicias {
+        bottom: 100px;
+    }
+    .formulario_cont {
+        bottom: 50px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 80px;
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: .625rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .4375rem;
+    }
 }
 @media(max-width:647px){
     header section .navbar .ul_navbar .li_navbar .href_navbar {
@@ -1267,6 +1410,16 @@ main .img_franquicia{
     main .parrafo_producto {
         line-height: 10px;
     }
+    /*locales*/
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: .625rem;
+    }
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .5rem;
+    }
+    .grid_locales {
+        top: 300px;
+    }
 }
 @media(max-width:600px){
     main .about_main .img_salmon {
@@ -1287,7 +1440,7 @@ main .img_franquicia{
         bottom: 85px;
     }
 }
-@media(max-width:570px){
+@media(max-width:571px){
     main .flex-main .h1_index {
         font-size: .625rem;
         left: -2px;
@@ -1345,6 +1498,7 @@ main .img_franquicia{
     .iconos {
         margin: 0px 20px;
     }
+    
 }
 @media(max-width:536px){
     header section .navbar .img_pricipal {
@@ -1373,6 +1527,51 @@ main .img_franquicia{
     .contenedor_usuarios {
         width: 140px;
         height: 200px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .375rem;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 100px;
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        width: 100px;
+        height: 100px;
+        font-size: .500rem;
+    }
+    .parrafo_franquicias {
+        top: 70px;
+    }
+    main .img_franquicia {
+        top: 10px;
+    }
+    .contenedor_parrafo_form {
+        font-size: .6125rem;
+    }
+    .input_franquicias {
+        width: 350px
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: .5625rem;
+    }
+    .encuesta_yellow {
+        font-size: 2rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .4063rem;
+    }
+    .formu {
+        font-size: 1rem;
+    }
+    .contenedor_opciones {
+        font-size: .625rem;
+    }
+    .footer_encuesta {
+        top: 350px;
     }
 }
 @media(max-width:506px){
@@ -1414,6 +1613,7 @@ main .img_franquicia{
     header section .navbar .img_pricipal {
         margin-right: 20px;
     }
+    /*encuesta*/
     
 }
 
@@ -1496,6 +1696,76 @@ main .img_franquicia{
     main .titulo_opiniones {
         margin-bottom: 30%;
     }
+    /*novedades*/
+    .grid_novedades {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+    }
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 300px;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: 1.25rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .8125rem;
+        line-height: 20px;
+    }
+    /*locales*/
+
+    .grid_locales {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: 1.5625rem;
+    }
+    main .grid_locales .contenedor_locales .direccion_locales {
+        font-size: .8125rem;
+    }
+    main .grid_locales .contenedor_locales {
+        height: 240px;
+    }
+
+    /*novedades*/
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+        font-size: .5rem;
+    }
+    .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+        font-size: .375rem;
+        line-height: 7px;
+    }
+    
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        margin-bottom: 20px;
+    }
+    .grid_four {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .input_franquicias {
+        width: 300px;
+    }
+    .parrafo_franquicias {
+        font-size: .5125rem;
+    }
+    /*encuesta*/
+    .encuesta_yellow {
+        font-size: 1.625rem;
+    }
+    .ctndo_encuesta {
+        font-size: .4375rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .375rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .375rem;
+    }
+    .contenedor_opciones {
+        font-size: .5rem;
+    }
 }
 @media(max-width:360px){
     main .flex-main .h1_index {
@@ -1568,6 +1838,45 @@ main .img_franquicia{
     }
 
 }
+@media(max-width:303px){
+    /*navbar*/
+    header section .navbar .ul_navbar .li_navbar {
+        margin: 0px 2px;
+    }
+    /*locales*/
+    main .grid_locales .contenedor_locales .nombre_locales {
+        font-size: 1.25rem;
+    }
+    /*novedades*/
+    .grid_novedades .contenedor_nov .img_nov {
+        height: 200px;
+    }
+    .contenedor_titulo_novedades .titulo_novedades {
+        font-size: 2.8125rem;
+    }
+    /*franquicias*/
+    .input_franquicias {
+        width: 230px;
+    }
+    .h1_franqucias {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.4125rem;
+    }
+    /*encuesta*/
+    .encuesta_yellow {
+        font-size: 1rem;
+    }
+    .formu {
+        font-size: .625rem;
+    }
+    .contenedor_opciones {
+        font-size: .375rem;
+    }
+    /*footer*/
+    .contenedor_items {
+        flex-direction: column-reverse;
+    }
+}
 
 @keyframes imagen_salmon {
     0%{
@@ -1580,12 +1889,12 @@ main .img_franquicia{
         transform: rotate(144deg);
     }
     50%{
-        transform: rotate(216deg)
+        transform: rotate(216deg);
     }
     75%{
-        transform: rotate(288deg)
+        transform: rotate(288deg);
     }
     100%{
-        transform: rotate(360deg)
+        transform: rotate(360deg);
     }
 }
