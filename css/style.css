@@ -420,6 +420,12 @@ main .a_general {
   text-decoration: none;
 }
 
+.footer_locales {
+  position: relative;
+  top: 420px;
+  margin-bottom: 31%;
+}
+
 /*components*/
 .menu_box {
   display: grid;
