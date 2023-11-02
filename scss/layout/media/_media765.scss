@@ -1,0 +1,69 @@
+@media(max-width:765px){
+    header{
+        section{
+            .navbar {
+                .ul_navbar{
+                    .li_navbar {
+                        margin: 0px 3px;
+                    }
+                }
+            }
+        }
+    }   
+    .menu_box {
+        @include grid ( repeat(1, 1fr),repeat(1, 1fr))
+    }
+    .menu_card {
+        height: 550px;
+        width: 350px;
+        .img_menu {
+            height: 210px;
+        }
+    }
+    .h1_index{
+        .comida_yellow {
+            font-size: map-get($map: $font-size, $key:font-30px );
+        }
+    } 
+    .parrafo_principal {
+        width: 56%;
+    }
+    .img_princi {
+        width: 300px;
+    }
+    .img_salmon {
+        width: 400px;
+    }
+    .corazon {
+        bottom: 170px;
+        left: 95px;
+    }
+    .parrafo_producto {
+        width: 60%;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .contenedor_usuarios {
+        margin-bottom: 150px;
+    }
+    .nombre_productos {
+        margin: 9% 0;
+    }
+    .grid_galeria {
+        @include grid ( repeat(2, 1fr),repeat(3, 1fr))
+    }
+    .grid_opiniones {
+        @include grid ( repeat(1, 1fr),repeat(3, 1fr))
+    }
+    .form{
+        .contendor_fom {
+            .input {
+                width: 150px;
+            }
+        }
+    } 
+    .titulo_menu {
+        margin-top: 240px;
+    }
+    
+}

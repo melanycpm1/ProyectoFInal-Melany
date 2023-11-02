@@ -1,0 +1,131 @@
+@media(max-width:1087px){
+    .img_princi{
+        width: 450px;
+    }
+    .h1_index {
+        font-size: map-get($map: $font-size, $key:font-25px);
+        .comida_yellow{
+            font-size: map-get($map: $font-size, $key:font-50px);
+        }
+    }
+    .parrafo_principal {
+        top: -55px;
+    }
+    .img_salmon {
+        width: 550px;
+    }
+    .sobre_yellow {
+        font-size:  map-get($map: $font-size, $key:font-30px);
+        .nosotros_black {
+            font-size:  map-get($map: $font-size, $key:font-17px);
+        }
+    }
+    .titulo_elegirnos {
+        font-size:  map-get($map: $font-size, $key:font-13px);
+    }
+    .titulo_menu {
+        font-size:  map-get($map: $font-size, $key:font-17px);
+        .menu_yellow {
+            font-size:  map-get($map: $font-size, $key:font-30px);
+        }
+    }
+    .titulo_galeria {
+        font-size:  map-get($map: $font-size, $key:font-17px);
+        .palabra_yellow {
+            font-size:  map-get($map: $font-size, $key:font-30px);
+        }
+    }
+    .titulo_opiniones {
+        font-size:  map-get($map: $font-size, $key:font-17px);
+        .palabra_yellow {
+            font-size:  map-get($map: $font-size, $key:font-30px);
+        }
+    }
+    .contenedor_usuarios {
+        width: 260px;
+        height: 370px;
+        .parrafo_usuario{
+            line-height: 16px;
+        }
+        .img_usuarios{
+            width: 150px;
+            height: 150px;
+            bottom: 80px;
+        }
+    }
+    .form{
+        bottom: 10px
+    }
+
+    /*locales*/
+    main {
+        .grid_locales{
+            .contenedor_locales{
+                .nombre_locales {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    /*novedades*/
+    .grid_novedades{
+        .contenedor_nov{
+            .img_nov {
+                height: 250px;
+            }
+        }
+    }  
+    .grid_novedades {
+        .contenedor_nov {
+            .contenedor_texto_novedades{
+                .novedades {
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    } 
+
+    .grid_novedades{
+        .contenedor_nov{
+            .contenedor_texto_novedades{
+                .parrafo_novedades {
+                    margin-top: 4%;
+                    font-family: 'Lora', serif;
+                    font-size: .625rem;
+                }
+            }
+        }
+    }
+
+    /*franquicias*/
+    .grid_four{
+        .parrafo_grid_franquicias {
+            width: 200px;
+            height: 200px;
+            font-size: 1rem;
+        }
+    }
+    .titulo_franquicias {
+        bottom: 250px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 220px
+    }
+    .contenedor_titulo_principal{
+        .parrafo_franquicias {
+            font-size: .9375rem;
+        }
+    }
+    
+    /*encuesta*/
+    .ctndo_encuesta{
+        .encuesta_yellow {
+            font-size: 3.200rem;
+        }
+    }
+    
+    .ctnedor_parrafo {
+        font-size: .945rem;
+    }
+}

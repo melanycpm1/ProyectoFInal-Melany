@@ -1,0 +1,5 @@
+@media(max-width:325px){
+    .parrafo_principal {
+        font-size: map-get($map: $font-size, $key: font-6px);
+    }
+}

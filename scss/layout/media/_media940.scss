@@ -1,0 +1,87 @@
+@media(max-width:940px){
+    .img_princi {
+        width: 350px;
+    }
+    .img_salmon {
+        width: 450px;
+        top: 35px;
+    }
+    .h1_index {
+        top: -60px;
+        line-height: 40px;
+    }
+    .btn_ordenar {
+        left: 55px;
+        top: -40px;
+    }
+    .menu_card {
+        height: 330px;
+        width: 150px;
+        .img_menu {
+            width: 75%;
+            height: 110px;
+        }
+    }
+    .nombre_productos {
+        font-size: map-get($map: $font-size, $key:font-17px);
+    }
+    .parrafo_producto {        
+        font-size: map-get($map: $font-size, $key:font-11px);
+    }
+    .precio_producto_hambuguesa {
+        font-size: map-get($map: $font-size, $key:font-11px);
+        top: 10px
+    }
+    .contenedor_extrella {
+        top: 15px;
+    }
+    .btn_ordenar_productos {
+        top: 16px;
+    }
+    .corazon {
+        bottom: 85px;
+        left: 45px;
+    }
+    .img_galeria {
+        width: 65%;
+    }
+    .contenedor_usuarios{
+        .contenedor_usuarios 
+        .img_usuarios {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    .contenedor_usuarios {
+        width: 230px;
+        height: 330px;
+        .parrafo_usuario {
+            width: 80%;
+        }
+        .img_usuarios {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    /*novedades*/
+    .grid_novedades{
+        .contenedor_nov {
+            .img_nov {
+                height: 200px;
+            }
+        }
+    } 
+    
+    .grid_novedades{
+        .contenedor_nov{
+            .contenedor_texto_novedades{
+                .novedades {
+                    font-size: .9375rem;
+                }
+                .parrafo_novedades {
+                    font-size: .5rem;
+                }
+            }
+        }
+    }
+}

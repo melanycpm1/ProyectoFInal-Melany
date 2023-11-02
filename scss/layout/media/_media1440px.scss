@@ -94,4 +94,14 @@
     .img_form{
         width: 60%;
     }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: map-get($map:$font-size, $key:font-20px );
+    }
+    .ctnedor_parrafo {
+        font-size: map-get($map:$font-size, $key:font-17px);
+    }
+    .contenedor_formulario_encuesta {
+        width: 90%;
+    }
 }

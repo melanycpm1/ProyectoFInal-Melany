@@ -1,0 +1,41 @@
+@media(max-width:692px){
+    .img_princi {
+        width: 250px;
+        left: 0px
+    }
+    .img_salmon {
+        width: 250px;
+    }
+    .parrafo_principal {
+        line-height: 17px;
+    }
+    .parrafo_nosotros {
+        width: 205px;
+    }
+    .h1_index {
+        line-height: 30px;
+        font-size: map-get($map: $font-size, $key:font-17px );
+        font-weight: 800;
+        .comida_yellow {
+            font-size: map-get($map: $font-size, $key:font-20px );
+        }
+    }
+    .iconos {
+        margin: 0px 5px;
+    }
+    header{
+        section{
+            .navbar{
+                .ul_navbar{
+                    .li_navbar{
+                        .href_navbar{
+                            font-size: map-get($map: $font-size, $key:font-11px );
+                        }
+                    }
+                }
+            }
+        } 
+    }    
+        
+
+}

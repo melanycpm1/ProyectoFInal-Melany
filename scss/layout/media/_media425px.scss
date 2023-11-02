@@ -1,0 +1,56 @@
+@media(max-width:425px){
+    header{
+        section {
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    } 
+    header{
+        section {
+            .navbar{
+                .img_pricipal {
+                    width: 50px;
+                }
+            }
+        }
+    } 
+    .img_princi {
+        width: 150px;
+    }
+    .h1_index {
+        font-size: map-get($map: $font-size, $key:font-9px );
+        line-height: 10px;
+    }
+    .img_salmon {
+        width: 150px;
+    }
+    .parrafo_nosotros {
+        width: 125px;
+    }
+    .titulo_elegirnos {
+        bottom: 10px
+    }
+    .sobre_yellow {
+        font-size:  map-get($map: $font-size, $key:font-20px );
+        bottom: 20px;
+    }
+    .form{
+        .contendor_fom {
+            .input {
+                width: 120px;
+                height: 15px;
+            }
+        }
+    } 
+    
+    .menu_card {
+        width: 300px;
+    }
+    .footer{
+        .contenedor_items {
+            flex-direction: column;
+            margin-left: 50px;
+        }
+    } 
+}

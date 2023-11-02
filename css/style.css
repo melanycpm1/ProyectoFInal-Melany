@@ -858,6 +858,16 @@ header section .navbar .ul_navbar .li_navbar .href_navbar:hover {
   .img_form {
     width: 60%;
   }
+  /*encuesta*/
+  .ctndo_encuesta {
+    font-size: 1.25rem;
+  }
+  .ctnedor_parrafo {
+    font-size: 1.0625rem;
+  }
+  .contenedor_formulario_encuesta {
+    width: 90%;
+  }
 }
 @media (max-width: 1290px) {
   .h1_index {
@@ -924,6 +934,405 @@ header section .navbar .ul_navbar .li_navbar .href_navbar:hover {
   .menu_card .img_menu {
     width: 80%;
     height: 160px;
+  }
+  .corazon {
+    bottom: 130px;
+    left: 55px;
+  }
+  .parrafo_producto {
+    line-height: 15px;
+  }
+  .img_galeria {
+    width: 75%;
+  }
+  .contenedor_usuarios {
+    width: 300px;
+    height: 420px;
+  }
+  /*franquicias*/
+  .grid_four .parrafo_grid_franquicias {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 1087px) {
+  .img_princi {
+    width: 450px;
+  }
+  .h1_index {
+    font-size: 1.5625rem;
+  }
+  .h1_index .comida_yellow {
+    font-size: 3.125rem;
+  }
+  .parrafo_principal {
+    top: -55px;
+  }
+  .img_salmon {
+    width: 550px;
+  }
+  .sobre_yellow {
+    font-size: 1.875rem;
+  }
+  .sobre_yellow .nosotros_black {
+    font-size: 1.0625rem;
+  }
+  .titulo_elegirnos {
+    font-size: 0.8125rem;
+  }
+  .titulo_menu {
+    font-size: 1.0625rem;
+  }
+  .titulo_menu .menu_yellow {
+    font-size: 1.875rem;
+  }
+  .titulo_galeria {
+    font-size: 1.0625rem;
+  }
+  .titulo_galeria .palabra_yellow {
+    font-size: 1.875rem;
+  }
+  .titulo_opiniones {
+    font-size: 1.0625rem;
+  }
+  .titulo_opiniones .palabra_yellow {
+    font-size: 1.875rem;
+  }
+  .contenedor_usuarios {
+    width: 260px;
+    height: 370px;
+  }
+  .contenedor_usuarios .parrafo_usuario {
+    line-height: 16px;
+  }
+  .contenedor_usuarios .img_usuarios {
+    width: 150px;
+    height: 150px;
+    bottom: 80px;
+  }
+  .form {
+    bottom: 10px;
+  }
+  /*locales*/
+  main .grid_locales .contenedor_locales .nombre_locales {
+    font-size: 20px;
+  }
+  /*novedades*/
+  .grid_novedades .contenedor_nov .img_nov {
+    height: 250px;
+  }
+  .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.25rem;
+  }
+  .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+    margin-top: 4%;
+    font-family: "Lora", serif;
+    font-size: 0.625rem;
+  }
+  /*franquicias*/
+  .grid_four .parrafo_grid_franquicias {
+    width: 200px;
+    height: 200px;
+    font-size: 1rem;
+  }
+  .titulo_franquicias {
+    bottom: 250px;
+  }
+  .contenedor_parrafo_form {
+    bottom: 220px;
+  }
+  .contenedor_titulo_principal .parrafo_franquicias {
+    font-size: 0.9375rem;
+  }
+  /*encuesta*/
+  .ctndo_encuesta .encuesta_yellow {
+    font-size: 3.2rem;
+  }
+  .ctnedor_parrafo {
+    font-size: 0.945rem;
+  }
+}
+@media (max-width: 940px) {
+  .img_princi {
+    width: 350px;
+  }
+  .img_salmon {
+    width: 450px;
+    top: 35px;
+  }
+  .h1_index {
+    top: -60px;
+    line-height: 40px;
+  }
+  .btn_ordenar {
+    left: 55px;
+    top: -40px;
+  }
+  .menu_card {
+    height: 330px;
+    width: 150px;
+  }
+  .menu_card .img_menu {
+    width: 75%;
+    height: 110px;
+  }
+  .nombre_productos {
+    font-size: 1.0625rem;
+  }
+  .parrafo_producto {
+    font-size: 0.6875rem;
+  }
+  .precio_producto_hambuguesa {
+    font-size: 0.6875rem;
+    top: 10px;
+  }
+  .contenedor_extrella {
+    top: 15px;
+  }
+  .btn_ordenar_productos {
+    top: 16px;
+  }
+  .corazon {
+    bottom: 85px;
+    left: 45px;
+  }
+  .img_galeria {
+    width: 65%;
+  }
+  .contenedor_usuarios .contenedor_usuarios .img_usuarios {
+    width: 120px;
+    height: 120px;
+  }
+  .contenedor_usuarios {
+    width: 230px;
+    height: 330px;
+  }
+  .contenedor_usuarios .parrafo_usuario {
+    width: 80%;
+  }
+  .contenedor_usuarios .img_usuarios {
+    width: 120px;
+    height: 120px;
+  }
+  /*novedades*/
+  .grid_novedades .contenedor_nov .img_nov {
+    height: 200px;
+  }
+  .grid_novedades .contenedor_nov .contenedor_texto_novedades .novedades {
+    font-size: 0.9375rem;
+  }
+  .grid_novedades .contenedor_nov .contenedor_texto_novedades .parrafo_novedades {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 834px) {
+  .h1_index {
+    font-size: 1.25rem;
+  }
+  .h1_index .comida_yellow {
+    font-size: 2.5rem;
+  }
+  .parrafo_principal {
+    font-size: 0.5625rem;
+  }
+  /*formulario*/
+  .ctndo_encuesta {
+    font-size: 0.9375rem;
+  }
+  .ctnedor_parrafo {
+    font-size: 0.75rem;
+  }
+  .formu {
+    font-size: 1.25rem;
+  }
+  .contenedor_opciones {
+    font-size: 0.75rem;
+  }
+  /*locales*/
+  main .grid_locales .contenedor_locales .nombre_locales {
+    font-size: 0.9375rem;
+  }
+  main .grid_locales .contenedor_locales .direccion_locales {
+    font-size: 0.625rem;
+  }
+  /*franquicias*/
+  .grid_four {
+    bottom: 330px;
+  }
+  .grid_four .parrafo_grid_franquicias {
+    width: 170px;
+    height: 170px;
+  }
+  .contenedor_titulo_principal .parrafo_franquicias {
+    top: 50px;
+    font-size: 0.8125rem;
+  }
+  .titulo_franquicias {
+    bottom: 200px;
+  }
+  .contenedor_parrafo_form {
+    bottom: 160px;
+  }
+  .formulario_cont {
+    bottom: 120px;
+  }
+}
+@media (max-width: 765px) {
+  header section .navbar .ul_navbar .li_navbar {
+    margin: 0px 3px;
+  }
+  .menu_box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .menu_card {
+    height: 550px;
+    width: 350px;
+  }
+  .menu_card .img_menu {
+    height: 210px;
+  }
+  .h1_index .comida_yellow {
+    font-size: 1.875rem;
+  }
+  .parrafo_principal {
+    width: 56%;
+  }
+  .img_princi {
+    width: 300px;
+  }
+  .img_salmon {
+    width: 400px;
+  }
+  .corazon {
+    bottom: 170px;
+    left: 95px;
+  }
+  .parrafo_producto {
+    width: 60%;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .contenedor_usuarios {
+    margin-bottom: 150px;
+  }
+  .nombre_productos {
+    margin: 9% 0;
+  }
+  .grid_galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .grid_opiniones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .form .contendor_fom .input {
+    width: 150px;
+  }
+  .titulo_menu {
+    margin-top: 240px;
+  }
+}
+@media (max-width: 692px) {
+  .img_princi {
+    width: 250px;
+    left: 0px;
+  }
+  .img_salmon {
+    width: 250px;
+  }
+  .parrafo_principal {
+    line-height: 17px;
+  }
+  .parrafo_nosotros {
+    width: 205px;
+  }
+  .h1_index {
+    line-height: 30px;
+    font-size: 1.0625rem;
+    font-weight: 800;
+  }
+  .h1_index .comida_yellow {
+    font-size: 1.25rem;
+  }
+  .iconos {
+    margin: 0px 5px;
+  }
+  header section .navbar .ul_navbar .li_navbar .href_navbar {
+    font-size: 0.6875rem;
+  }
+}
+@media (max-width: 520px) {
+  .parrafo_principal {
+    line-height: 10px;
+  }
+  .img_princi {
+    width: 200px;
+  }
+  .h1_index {
+    font-size: 0.8125rem;
+  }
+  .flex-main {
+    margin-bottom: 100px;
+  }
+  .img_salmon {
+    width: 200px;
+  }
+  header section .navbar .ul_navbar .li_navbar .href_navbar {
+    font-size: 0.5625rem;
+  }
+  .titulo_opiniones {
+    margin-top: 26%;
+    margin-bottom: 31%;
+  }
+}
+@media (max-width: 425px) {
+  header section .navbar {
+    flex-direction: column;
+  }
+  header section .navbar .img_pricipal {
+    width: 50px;
+  }
+  .img_princi {
+    width: 150px;
+  }
+  .h1_index {
+    font-size: 0.5625rem;
+    line-height: 10px;
+  }
+  .img_salmon {
+    width: 150px;
+  }
+  .parrafo_nosotros {
+    width: 125px;
+  }
+  .titulo_elegirnos {
+    bottom: 10px;
+  }
+  .sobre_yellow {
+    font-size: 1.25rem;
+    bottom: 20px;
+  }
+  .form .contendor_fom .input {
+    width: 120px;
+    height: 15px;
+  }
+  .menu_card {
+    width: 300px;
+  }
+  .footer .contenedor_items {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 325px) {
+  .parrafo_principal {
+    font-size: 0.375rem;
   }
 }
 
