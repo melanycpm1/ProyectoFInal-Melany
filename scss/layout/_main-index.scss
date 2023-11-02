@@ -1,6 +1,5 @@
 .flex-main{
     @include flex(space-around, row, nowrap, center);
-    display: flex;
     position: relative;
     top: 130px;
 } 

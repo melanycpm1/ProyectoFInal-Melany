@@ -70,7 +70,6 @@ header section .navbar .ul_navbar .li_navbar .href_navbar:hover {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  display: flex;
   position: relative;
   top: 130px;
 }
@@ -773,7 +772,7 @@ header section .navbar .ul_navbar .li_navbar .href_navbar:hover {
   }
   .img_princi {
     width: 600px;
-    left: -90px;
+    left: -70px;
   }
   .parrafo_principal {
     font-size: 0.6875rem;
@@ -858,6 +857,73 @@ header section .navbar .ul_navbar .li_navbar .href_navbar:hover {
   }
   .img_form {
     width: 60%;
+  }
+}
+@media (max-width: 1290px) {
+  .h1_index {
+    top: -80px;
+  }
+  .parrafo_principal {
+    top: -40px;
+  }
+  .img_princi {
+    width: 500px;
+    bottom: 50px;
+  }
+  .img_salmon {
+    width: 650px;
+  }
+  .sobre_yellow {
+    font-size: 2.5rem;
+  }
+  .sobre_yellow .nosotros_black {
+    font-size: 1.25rem;
+  }
+  .titulo_elegirnos {
+    font-size: 1.0625rem;
+  }
+  .titulo_menu {
+    font-size: 1.25rem;
+  }
+  .titulo_menu .menu_yellow {
+    font-size: 2.5rem;
+  }
+  .titulo_galeria {
+    font-size: 1.25rem;
+  }
+  .titulo_galeria .palabra_yellow {
+    font-size: 2.5rem;
+  }
+  .titulo_opiniones {
+    font-size: 1.25rem;
+  }
+  .titulo_opiniones .palabra_yellow {
+    font-size: 2.5rem;
+  }
+  .titulo_ordena {
+    font-size: 2.5rem;
+  }
+  .form {
+    left: -80px;
+  }
+}
+@media (max-width: 1190px) {
+  .h1_index {
+    font-size: 1.875rem;
+  }
+  .h1_index .comida_yellow {
+    font-size: 3.9375rem;
+  }
+  .img_salmon {
+    width: 600px;
+  }
+  .menu_card {
+    height: 430px;
+    width: 200px;
+  }
+  .menu_card .img_menu {
+    width: 80%;
+    height: 160px;
   }
 }
 

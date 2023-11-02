@@ -1,0 +1,19 @@
+@media(max-width:1190px){
+    .h1_index {
+        font-size: map-get($map: $font-size, $key:font-30px);
+        .comida_yellow{
+            font-size: map-get($map: $font-size, $key:font-63px);
+        }
+    }
+    .img_salmon {
+        width: 600px;
+    }
+    .menu_card {
+        height: 430px;
+        width: 200px;
+        .img_menu {
+            width: 80%;
+            height: 160px;
+        }
+    }
+}
