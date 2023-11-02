@@ -64,7 +64,7 @@ header section .navbar .ul_navbar .li_navbar .href_navbar:hover {
   color: #fca311;
 }
 
-main .flex-main {
+.flex-main {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -74,7 +74,8 @@ main .flex-main {
   position: relative;
   top: 130px;
 }
-main .flex-main .h1_index {
+
+.h1_index {
   font-family: "Rubik", sans-serif;
   font-size: 3.125rem;
   font-weight: 500;
@@ -84,18 +85,20 @@ main .flex-main .h1_index {
   line-height: 3.125rem;
   color: #0d1321;
 }
-main .flex-main .h1_index .comida_yellow {
+.h1_index .comida_yellow {
   font-family: "Kaushan Script", cursive;
   font-size: 5.2rem;
   color: #fca311;
   text-decoration: underline;
 }
-main .flex-main .img_princi {
+
+.img_princi {
   width: 680px;
   position: relative;
   left: -10px;
 }
-main .parrafo_principal {
+
+.parrafo_principal {
   font-family: "Lora", serif;
   font-size: 0.8125rem;
   position: relative;
@@ -105,7 +108,8 @@ main .parrafo_principal {
   width: 70%;
   color: #0d1321;
 }
-main .btn_ordenar {
+
+.btn_ordenar {
   padding: 7px 15px;
   background-color: #fca311;
   border: none;
@@ -113,18 +117,22 @@ main .btn_ordenar {
   left: 55px;
   top: 10px;
 }
-main .a {
+
+.a {
   font-family: "Lora", serif;
   text-decoration: none;
   color: #f8f9fa;
 }
-main .icono_btn {
+
+.icono_btn {
   transition: 0.3s;
 }
-main .btn_ordenar:hover i {
+
+.btn_ordenar:hover i {
   transform: translateX(7px);
 }
-main .about_main {
+
+.about_main {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -134,7 +142,8 @@ main .about_main {
   position: relative;
   top: 130px;
 }
-main .about_main .img_salmon {
+
+.img_salmon {
   width: 800px;
   position: relative;
   left: 20px;
@@ -145,7 +154,8 @@ main .about_main .img_salmon {
   animation-duration: 20s;
   animation-delay: 0s;
 }
-main .about_main .sobre_yellow {
+
+.sobre_yellow {
   font-family: "Kaushan Script", cursive;
   font-size: 3.9375rem;
   color: #fca311;
@@ -153,33 +163,37 @@ main .about_main .sobre_yellow {
   position: relative;
   bottom: 50px;
 }
-main .about_main .sobre_yellow .nosotros_black {
+.sobre_yellow .nosotros_black {
   font-family: "Rubik", sans-serif;
   font-size: 2.5rem;
   color: #0d1321;
   margin-left: 2%;
 }
-main .about_main .titulo_elegirnos {
+
+.titulo_elegirnos {
   font-size: 1.875rem;
   font-family: "Rubik", sans-serif;
   position: relative;
   bottom: 35px;
   color: #0d1321;
 }
-main .about_main .parrafo_nosotros {
+
+.parrafo_nosotros {
   font-family: "Lora", serif;
   font-size: 0.8125rem;
   width: 450px;
   color: #0d1321;
   line-height: 22px;
 }
-main .btn_ordena {
+
+.btn_ordena {
   padding: 7px 15px;
   background-color: #fca311;
   border: none;
   margin-top: 10%;
 }
-main .a_general {
+
+.a_general {
   font-family: "Lora", serif;
   text-decoration: none;
   color: #f8f9fa;
@@ -205,74 +219,6 @@ main .a_general {
   text-decoration: underline;
 }
 
-.menu_box {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  text-align: center;
-  justify-items: center;
-  margin-top: 4%;
-}
-.menu_box .menu_card {
-  box-shadow: 0 0 10px #001524;
-  height: 570px;
-  width: 325px;
-  margin-bottom: 19%;
-}
-.menu_box .menu_card:hover {
-  transform: scale(1.1);
-}
-.menu_box .menu_card:hover .img_menu {
-  filter: opacity(80%);
-}
-.menu_box .menu_card .img_menu {
-  width: 85%;
-  height: 250px;
-  position: relative;
-  top: 20px;
-}
-.menu_box .menu_card .corazon {
-  position: relative;
-  bottom: 200px;
-  left: 100px;
-  cursor: pointer;
-}
-.menu_box .menu_card .nombre_productos {
-  font-family: "Rubik", sans-serif;
-  font-size: 1.5625rem;
-  margin: 6% 0;
-  color: #fca311;
-}
-.menu_box .menu_card .parrafo_producto {
-  width: 80%;
-  margin: 0 auto;
-  font-family: "Lora", serif;
-  font-size: 0.8125rem;
-  line-height: 20px;
-}
-.menu_box .menu_card .precio_producto_hambuguesa {
-  font-family: "Lora", serif;
-  font-size: 1.125rem;
-  font-weight: 500;
-  /* margin: 3% 0%;*/
-  position: relative;
-  top: 40px;
-}
-.menu_box .menu_card .btn_ordenar_productos {
-  padding: 2% 4%;
-  background-color: #22223b;
-  margin-top: 4%;
-  border: none;
-  position: relative;
-  top: 55px;
-}
-
-main .contenedor_extrella {
-  position: relative;
-  top: 50px;
-  color: #fca311;
-}
-
 .titulo_galeria {
   font-size: 2.5rem;
   font-family: "Rubik", sans-serif;
@@ -289,6 +235,7 @@ main .contenedor_extrella {
   color: #fca311;
   font-weight: 500;
   text-decoration: underline;
+  color: #fca311;
 }
 
 .grid_galeria {
@@ -299,11 +246,12 @@ main .contenedor_extrella {
   margin: 0 auto;
   text-align: center;
 }
-.grid_galeria .img_galeria {
+
+.img_galeria {
   width: 90%;
   margin-bottom: 4%;
 }
-.grid_galeria .img_galeria:hover {
+.img_galeria:hover {
   filter: grayscale(90%);
 }
 
@@ -322,14 +270,15 @@ main .contenedor_extrella {
   grid-template-rows: repeat(1, 1fr);
   justify-items: center;
 }
-.grid_opiniones .contenedor_usuarios {
+
+.contenedor_usuarios {
   width: 355px;
   height: 450px;
   border-radius: 25px;
   box-shadow: 0 0 10px #001524;
   text-align: center;
 }
-.grid_opiniones .contenedor_usuarios .img_usuarios {
+.contenedor_usuarios .img_usuarios {
   width: 200px;
   height: 200px;
   border-radius: 100px;
@@ -337,26 +286,26 @@ main .contenedor_extrella {
   position: relative;
   bottom: 90px;
 }
-.grid_opiniones .contenedor_usuarios .nombre_usuario {
+.contenedor_usuarios .nombre_usuario {
   font-family: "Rubik", sans-serif;
   font-size: 1.5625rem;
   color: #0d1321;
   position: relative;
   bottom: 70px;
 }
-.grid_opiniones .contenedor_usuarios .contenedor_extrellas {
+.contenedor_usuarios .contenedor_extrellas {
   position: relative;
   bottom: 60px;
   color: #fca311;
 }
-.grid_opiniones .contenedor_usuarios .contenedor_redes {
+.contenedor_usuarios .contenedor_redes {
   position: relative;
   bottom: 40px;
 }
-.grid_opiniones .contenedor_usuarios .contenedor_redes .redes {
+.contenedor_usuarios .contenedor_redes .redes {
   cursor: pointer;
 }
-.grid_opiniones .contenedor_usuarios .parrafo_usuario {
+.contenedor_usuarios .parrafo_usuario {
   width: 80%;
   margin: 0 auto;
   position: relative;
@@ -389,28 +338,7 @@ main .contenedor_extrella {
   flex-wrap: nowrap;
   align-items: center;
 }
-.formularios .img_form {
-  width: 70%;
-}
-.formularios .form {
-  position: relative;
-  bottom: 45px;
-}
-.formularios .form .contendor_fom {
-  margin: 5% 0;
-}
-.formularios .form .contendor_fom .nombre_form {
-  font-family: "Lora", serif;
-  font-size: 1.125rem;
-}
-.formularios .form .contendor_fom .input {
-  width: 250px;
-  height: 30px;
-  background-color: #f8f9fa;
-  border: 1px solid #001524;
-  border-radius: 3px;
-}
-.formularios .form .btn_ordenar_form {
+.formularios .btn_ordenar_form {
   padding: 3% 4%;
   background-color: #fca311;
   border: none;
@@ -419,6 +347,28 @@ main .contenedor_extrella {
   font-family: "Lora", serif;
   text-decoration: none;
   color: #f8f9fa;
+}
+
+.form {
+  position: relative;
+  bottom: 45px;
+}
+.form .contendor_fom {
+  margin: 5% 0;
+}
+.form .contendor_fom .nombre_form {
+  font-family: "Lora", serif;
+}
+.form .contendor_fom .input {
+  width: 250px;
+  height: 30px;
+  background-color: #f8f9fa;
+  border: 1px solid #001524;
+  border-radius: 3px;
+}
+
+.img_form {
+  width: 70%;
 }
 
 .contenedor_titulo_locales {
@@ -749,52 +699,56 @@ main .contenedor_extrella {
   justify-items: center;
   margin-top: 4%;
 }
-.menu_box .menu_card {
+
+.menu_card {
   box-shadow: 0 0 10px #001524;
   height: 570px;
   width: 325px;
   margin-bottom: 19%;
 }
-.menu_box .menu_card:hover {
+.menu_card:hover {
   transform: scale(1.1);
 }
-.menu_box .menu_card:hover .img_menu {
+.menu_card:hover .img_menu {
   filter: opacity(80%);
 }
-.menu_box .menu_card .img_menu {
+.menu_card .img_menu {
   width: 85%;
   height: 250px;
   position: relative;
   top: 20px;
 }
-.menu_box .menu_card .corazon {
+
+.corazon {
   position: relative;
   bottom: 200px;
   left: 100px;
   cursor: pointer;
 }
-.menu_box .menu_card .nombre_productos {
+
+.nombre_productos {
   font-family: "Rubik", sans-serif;
   font-size: 1.5625rem;
   margin: 6% 0;
   color: #fca311;
 }
-.menu_box .menu_card .parrafo_producto {
+
+.parrafo_producto {
   width: 80%;
   margin: 0 auto;
   font-family: "Lora", serif;
   font-size: 0.8125rem;
   line-height: 20px;
 }
-.menu_box .menu_card .precio_producto_hambuguesa {
+
+.precio_producto_hambuguesa {
   font-family: "Lora", serif;
-  font-size: 1.125rem;
   font-weight: 500;
-  /* margin: 3% 0%;*/
   position: relative;
   top: 40px;
 }
-.menu_box .menu_card .btn_ordenar_productos {
+
+.btn_ordenar_productos {
   padding: 2% 4%;
   background-color: #22223b;
   margin-top: 4%;
@@ -803,12 +757,108 @@ main .contenedor_extrella {
   top: 55px;
 }
 
-main .contenedor_extrella {
+.contenedor_extrella {
   position: relative;
   top: 50px;
   color: #fca311;
 }
 
 /*querry*/
+@media (max-width: 1440px) {
+  .h1_index {
+    font-size: 2.5rem;
+  }
+  .h1_index .comida_yellow {
+    font-size: 4.375rem;
+  }
+  .img_princi {
+    width: 600px;
+    left: -90px;
+  }
+  .parrafo_principal {
+    font-size: 0.6875rem;
+  }
+  .sobre_yellow {
+    font-size: 3.125rem;
+  }
+  .sobre_yellow .nosotros_black {
+    font-size: 1.875rem;
+  }
+  .titulo_elegirnos {
+    font-size: 1.5625rem;
+  }
+  .parrafo_nosotros {
+    font-size: 0.6875rem;
+    width: 335px;
+  }
+  .img_salmon {
+    width: 750px;
+  }
+  .titulo_menu {
+    font-size: 1.875rem;
+  }
+  .titulo_menu .menu_yellow {
+    font-size: 3.125rem;
+  }
+  .menu_card {
+    height: 470px;
+    width: 225px;
+  }
+  .menu_card .img_menu {
+    width: 80%;
+    height: 190px;
+    position: relative;
+    top: 20px;
+  }
+  .corazon {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+    cursor: pointer;
+  }
+  .precio_producto_hambuguesa {
+    top: 20px;
+  }
+  .contenedor_extrella {
+    top: 30px;
+  }
+  .btn_ordenar_productos {
+    top: 35px;
+  }
+  .titulo_galeria {
+    font-size: 1.875rem;
+  }
+  .titulo_galeria .palabra_yellow {
+    font-family: "Kaushan Script", cursive;
+    font-size: 3.125rem;
+  }
+  .img_galeria {
+    width: 85%;
+  }
+  .titulo_opiniones {
+    font-size: 1.875rem;
+  }
+  .titulo_opiniones .palabra_yellow {
+    font-size: 3.125rem;
+    color: #fca311;
+  }
+  .contenedor_usuarios {
+    width: 340px;
+    height: 435px;
+  }
+  .contenedor_usuarios .nombre_usuario {
+    font-size: 1.25rem;
+  }
+  .contenedor_usuarios .parrafo_usuario {
+    width: 70%;
+  }
+  .form {
+    position: relative;
+    bottom: 30px;
+  }
+  .img_form {
+    width: 60%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

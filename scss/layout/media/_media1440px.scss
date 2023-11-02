@@ -1,3 +1,97 @@
 @media(max-width:1440px){
+    .h1_index{
+        font-size: map-get($map: $font-size, $key:font-40px );
+        .comida_yellow{
+            font-size: map-get($map: $font-size, $key:font-70px);
+        }
+    }
+    .img_princi {
+        width: 600px;
+        left: -90px;
+    }
+    .parrafo_principal{
+        font-size: map-get($map: $font-size, $key:font-11px);
+    }
+    .sobre_yellow{
+        font-size: map-get($map: $font-size, $key:font-50px);
+        .nosotros_black{
+            font-size: map-get($map: $font-size, $key:font-30px);
+        }
+    }
+    .titulo_elegirnos{
+        font-size: map-get($map: $font-size, $key:font-25px);
+    }
+    .parrafo_nosotros{
+        font-size: map-get($map: $font-size, $key:font-11px);
+        width: 335px;
+    }
+    .img_salmon{
+        width: 750px;
+    }
+    .titulo_menu{
+        font-size: map-get($map: $font-size, $key:font-30px);
+        .menu_yellow{
+            font-size: map-get($map: $font-size, $key:font-50px);
+        }
+    }
+    .menu_card{
+        height: 470px;
+        width: 225px;
+        .img_menu{
+            width: 80%;
+            height: 190px;
+            position: relative;
+            top: 20px;
+        }
+    }
+    .corazon{
+        position: relative;
+        bottom: 150px;
+        left: 70px;
+        cursor: pointer;
+    }
+    .precio_producto_hambuguesa{
+        top: 20px;
+    }
+    .contenedor_extrella{
+        top: 30px;
+    }
+    .btn_ordenar_productos{
+        top: 35px;
+    }
 
+    .titulo_galeria{
+        font-size: map-get($map: $font-size, $key: font-30px);
+        .palabra_yellow{
+            font-family: 'Kaushan Script', cursive;
+            font-size: map-get($map: $font-size, $key:font-50px);
+        }
+    }
+    .img_galeria{
+        width: 85%;
+    }
+    .titulo_opiniones{
+        font-size: map-get($map: $font-size, $key:font-30px);
+        .palabra_yellow{
+            font-size: map-get($map: $font-size, $key:font-50px);
+            color: $color-principal;
+        }
+    }
+    .contenedor_usuarios{
+        width: 340px;
+        height: 435px;
+        .nombre_usuario{
+            font-size: map-get($map:$font-size, $key:font-20px );
+        }
+        .parrafo_usuario{
+            width: 70%;
+        }
+    }
+    .form{
+        position: relative;
+        bottom: 30px;
+    }
+    .img_form{
+        width: 60%;
+    }
 }

@@ -1,118 +1,119 @@
-main {
-    .flex-main{
-        @include flex(space-around, row, nowrap, center);
-        display: flex;
-        position: relative;
-        top: 130px;
-        .h1_index{
-            font-family: 'Rubik', sans-serif;
-            font-size: map-get($map: $font-size, $key:font-50px );
-            font-weight: 500;
-            position: relative;
-            top: -100px;
-            left: 50px;
-            line-height: 3.125rem;
-            color: $color_texto;
-            .comida_yellow{
-                font-family: 'Kaushan Script', cursive;
-                font-size: map-get($map: $font-size, $key:font-83px);
-                color: $color-principal;
-                text-decoration:underline;
-            }
-        }
-        .img_princi{
-            width: 680px;
-            position: relative;
-            left: -10px;
-        }
-    } 
-    .parrafo_principal{
-        font-family: 'Lora', serif;
-        font-size: map-get($map: $font-size, $key:font-13px);
-        position: relative;
-        left: 55px;
-        top: -50px;
-        line-height: 22px;
-        width: 70%;
+.flex-main{
+    @include flex(space-around, row, nowrap, center);
+    display: flex;
+    position: relative;
+    top: 130px;
+} 
+.h1_index{
+    font-family: 'Rubik', sans-serif;
+    font-size: map-get($map: $font-size, $key:font-50px );
+    font-weight: 500;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    line-height: 3.125rem;
+    color: $color_texto;
+    .comida_yellow{
+        font-family: 'Kaushan Script', cursive;
+        font-size: map-get($map: $font-size, $key:font-83px);
+        color: $color-principal;
+        text-decoration:underline;
+    }
+}
+
+.img_princi{
+    width: 680px;
+    position: relative;
+    left: -10px;
+}
+.parrafo_principal{
+    font-family: 'Lora', serif;
+    font-size: map-get($map: $font-size, $key:font-13px);
+    position: relative;
+    left: 55px;
+    top: -50px;
+    line-height: 22px;
+    width: 70%;
+    color: $color_texto;
+}
+.btn_ordenar{
+    padding: 7px 15px;
+    background-color: $color-principal;
+    border: none;
+    position: relative;
+    left: 55px;
+    top:10px ;
+}
+.a{
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: $color_blanco;
+}
+.icono_btn{
+    transition: 0.3s;
+}
+.btn_ordenar{
+    &:hover i{
+        transform: translateX(7px);
+    }
+}
+.about_main{
+    @include flex(space-around, row, nowrap, center);
+    display: flex;
+    position: relative;
+    top: 130px;
+}
+.img_salmon{
+    width: 800px;
+    position: relative;
+    left: 20px;
+    top: 125px;
+    animation-name: imagen_salmon;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-delay: 0s;
+}
+
+.sobre_yellow{
+    font-family: 'Kaushan Script', cursive;
+    font-size: map-get($map: $font-size, $key:font-63px);
+    color: $color-principal;
+    font-weight: 500;
+    position: relative;
+    bottom: 50px;
+    .nosotros_black{
+        font-family: 'Rubik', sans-serif;
+        font-size: map-get($map: $font-size, $key:font-40px);
         color: $color_texto;
+        margin-left: 2%;
     }
-    .btn_ordenar{
-        padding: 7px 15px;
-        background-color: $color-principal;
-        border: none;
-        position: relative;
-        left: 55px;
-        top:10px ;
-    }
-    .a{
-        font-family: 'Lora', serif;
-        text-decoration: none;
-        color: $color_blanco;
-    }
-    .icono_btn{
-        transition: 0.3s;
-    }
-    .btn_ordenar{
-        &:hover i{
-            transform: translateX(7px);
-        }
-    }
-    .about_main{
-        @include flex(space-around, row, nowrap, center);
-        display: flex;
-        position: relative;
-        top: 130px;
-        .img_salmon{
-            width: 800px;
-            position: relative;
-            left: 20px;
-            top: 125px;
-            animation-name: imagen_salmon;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-            animation-duration: 20s;
-            animation-delay: 0s;
-        }
-        .sobre_yellow{
-            font-family: 'Kaushan Script', cursive;
-            font-size: map-get($map: $font-size, $key:font-63px);
-            color: $color-principal;
-            font-weight: 500;
-            position: relative;
-            bottom: 50px;
-            .nosotros_black{
-                font-family: 'Rubik', sans-serif;
-                font-size: map-get($map: $font-size, $key:font-40px);
-                color: $color_texto;
-                margin-left: 2%;
-            }
-        }
-        .titulo_elegirnos{
-            font-size: map-get($map: $font-size, $key:font-30px);
-            font-family: 'Rubik', sans-serif;
-            position: relative;
-            bottom:35px;
-            color: $color_texto;
-        }
-        .parrafo_nosotros{
-            font-family: 'Lora', serif;
-            font-size: map-get($map: $font-size, $key:font-13px);
-            width: 450px;
-            color: $color_texto;
-            line-height: 22px;
-        }
-    }
-    .btn_ordena{
-        padding: 7px 15px;
-        background-color: $color-principal;
-        border: none;
-        margin-top: 10%;
-    }
-    .a_general{
-        font-family: 'Lora', serif;
-        text-decoration: none;
-        color: $color_blanco;
-    }
+}
+
+.titulo_elegirnos{
+    font-size: map-get($map: $font-size, $key:font-30px);
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    bottom:35px;
+    color: $color_texto;
+}
+.parrafo_nosotros{
+    font-family: 'Lora', serif;
+    font-size: map-get($map: $font-size, $key:font-13px);
+    width: 450px;
+    color: $color_texto;
+    line-height: 22px;
+}
+.btn_ordena{
+    padding: 7px 15px;
+    background-color: $color-principal;
+    border: none;
+    margin-top: 10%;
+}
+.a_general{
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: $color_blanco;
 }
 .titulo_menu{
     @include flex(center, row, nowrap, baseline);
@@ -144,6 +145,7 @@ main {
         color:$color-principal;
         font-weight: 500;
         text-decoration: underline;
+        color: $color-principal;
     }
 }
 
@@ -152,15 +154,15 @@ main {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    .img_galeria{
-        width: 90%;
-        margin-bottom: 4%;
-        &:hover{
-            filter: grayscale(90%);
-        }
+    
+}
+.img_galeria{
+    width: 90%;
+    margin-bottom: 4%;
+    &:hover{
+        filter: grayscale(90%);
     }
 }
-
 .titulo_opiniones{
     font-size: map-get($map: $font-size, $key:font-40px);
     font-family: 'Rubik', sans-serif;
@@ -173,51 +175,50 @@ main {
 .grid_opiniones{
     @include grid(repeat(3,1fr),repeat(1,1fr));
     justify-items: center;
-    .contenedor_usuarios{
-        width: 355px;
-        height: 450px;
-        border-radius: 25px;
-        box-shadow:0 0 10px $color_sombra;
-        text-align: center;
-        .img_usuarios{
-            width: 200px;
-            height: 200px;
-            border-radius: 100px;
-            box-shadow:  0 0 10px  $color_sombra;
-            position: relative;
-            bottom: 90px;
-        }
-        .nombre_usuario{
-            font-family: 'Rubik', sans-serif;
-            font-size: map-get($map:$font-size, $key:font-25px );
-            color: $color_texto;
-            position: relative;
-            bottom: 70px;
-        }
-        .contenedor_extrellas{
-            position: relative;
-            bottom: 60px;
-            color: $color-principal;
-        }
-        .contenedor_redes{
-            position: relative;
-            bottom: 40px;
-            .redes{
-                cursor: pointer;
-            }
-        }
-        .parrafo_usuario{
-            width: 80%;
-            margin: 0 auto;
-            position: relative;
-            bottom: 25px;
-            font-family: 'Lora', serif;
-            font-size: map-get($map: $font-size, $key:font-13px );
-            line-height: 20px;
+}
+.contenedor_usuarios{
+    width: 355px;
+    height: 450px;
+    border-radius: 25px;
+    box-shadow:0 0 10px $color_sombra;
+    text-align: center;
+    .img_usuarios{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        box-shadow:  0 0 10px  $color_sombra;
+        position: relative;
+        bottom: 90px;
+    }
+    .nombre_usuario{
+        font-family: 'Rubik', sans-serif;
+        font-size: map-get($map:$font-size, $key:font-25px );
+        color: $color_texto;
+        position: relative;
+        bottom: 70px;
+    }
+    .contenedor_extrellas{
+        position: relative;
+        bottom: 60px;
+        color: $color-principal;
+    }
+    .contenedor_redes{
+        position: relative;
+        bottom: 40px;
+        .redes{
+            cursor: pointer;
         }
     }
+    .parrafo_usuario{
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 25px;
+        font-family: 'Lora', serif;
+        font-size: map-get($map: $font-size, $key:font-13px );
+        line-height: 20px;
+    }
 }
-
 .titulo_ordena{
     font-size: map-get($map: $font-size, $key:font-40px );
     font-family: 'Rubik', sans-serif;
@@ -231,26 +232,7 @@ main {
 }
 .formularios{
     @include flex( center, row, nowrap, center);
-    .img_form{
-        width: 70%;
-    }
-    .form{
-        position: relative;
-        bottom: 45px;
-        .contendor_fom{
-            margin: 5% 0;
-            .nombre_form{
-                font-family: 'Lora', serif;
-                font-size: map-get($map: $font-size, $key:font-18px);
-            }
-            .input{
-                width: 250px;
-                height: 30px;
-                background-color: $color_blanco;
-                border: 1px solid $color_sombra;
-                border-radius: 3px;
-            }
-        }
+    
         .btn_ordenar_form{
             padding: 3% 4%;
             background-color: $color-principal;
@@ -262,4 +244,25 @@ main {
             color: #f8f9fa;
         }
     }
+
+.form{
+    position: relative;
+    bottom: 45px;
+    .contendor_fom{
+        margin: 5% 0;
+        .nombre_form{
+            font-family: 'Lora', serif;
+            font-size: map-get($map: $font-size, $key:font-18px);
+        }
+        .input{
+            width: 250px;
+            height: 30px;
+            background-color: $color_blanco;
+            border: 1px solid $color_sombra;
+            border-radius: 3px;
+        }
+    }
+}
+.img_form{
+    width: 70%;
 }
