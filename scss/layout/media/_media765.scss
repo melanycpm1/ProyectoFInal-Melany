@@ -65,5 +65,33 @@
     .titulo_menu {
         margin-top: 240px;
     }
-    
+    /*franquicias*/
+    .grid_four{
+        .parrafo_grid_franquicias {
+                width: 130px;
+                height: 130px;
+                font-size: .700rem;
+        }
+    }
+    .contenedor_titulo_principal{
+        .parrafo_franquicias {
+                font-size: .6125rem;
+        }
+    }
+    .titulo_franquicias {
+        bottom: 100px;
+    }
+    .formulario_cont {
+        bottom: 50px;
+    }
+    .contenedor_parrafo_form {
+        bottom: 80px;
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: .625rem;
+    }
+    .ctnedor_parrafo {
+        font-size: .4375rem;
+    }
 }

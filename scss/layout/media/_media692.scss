@@ -36,6 +36,21 @@
             }
         } 
     }    
-        
+    /*locales*/
+    main {
+        .grid_locales{
+            .contenedor_locales{
+                .nombre_locales {
+                    font-size: .625rem;
+                }
+                .direccion_locales {
+                    font-size: .5rem;
+                }
+                .grid_locales {
+                    top: 300px;
+                } 
+            }
+        }
+    }
 
 }

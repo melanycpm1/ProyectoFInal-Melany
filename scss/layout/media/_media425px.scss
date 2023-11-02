@@ -53,4 +53,80 @@
             margin-left: 50px;
         }
     } 
+
+    /*novedades*/
+    .grid_novedades {
+        @include grid (repeat(1,1fr),repeat(9,1fr));
+        
+        .contenedor_nov{
+            .img_nov {
+                    height: 300px;
+                }
+        }
+
+        .contenedor_nov {
+            .contenedor_texto_novedades{
+                .novedades {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+        .contenedor_nov{
+            .contenedor_texto_novedades{
+                .parrafo_novedades {
+                    font-size: .8125rem;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    /*locales*/
+
+    .grid_locales {
+        @include grid (repeat(1,1fr),repeat(4,1fr) )
+    }
+    main{
+        .grid_locales {
+            .contenedor_locales {
+                height: 240px;
+                .nombre_locales {
+                    font-size: 1.5625rem;
+                }
+                .direccion_locales {
+                    font-size: .8125rem;
+                }
+            }
+        }
+    }  
+    .contenedor_titulo_locales{
+        font-size: map-get($map: $font-size, $key:font-20px );
+    }
+    /*franquicias*/
+    .parrafo_grid_franquicias {
+        margin-bottom: 20px;
+    }
+    .grid_four {
+        @include grid(repeat(2,1fr), repeat(2,1fr))
+    }
+    .input_franquicias {
+        width: 300px;
+    }
+    .parrafo_franquicias {
+        font-size: .5125rem;
+    }
+    /*encuesta*/
+    .ctndo_encuesta{
+        font-size: .4375rem;
+        .encuesta_yellow {
+            font-size: 1.625rem;
+        }
+    }
+    
+    .ctnedor_parrafo {
+        font-size: .375rem;
+    }       
+    .contenedor_opciones {
+        font-size: .5rem;
+    }
 }

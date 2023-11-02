@@ -31,4 +31,67 @@
         margin-top: 26%;
         margin-bottom: 31%;
     }
+    /*locales*/
+    main {
+        .grid_locales{
+            .contenedor_locales {
+                .direccion_locales {
+                    font-size: .375rem;
+                
+                }
+            }
+        } 
+    }
+    /*novedades*/
+    .grid_novedades{
+        .contenedor_nov {
+            .img_nov {
+                height: 100px;
+            }
+        }
+    }
+    /*franquicias*/
+    .grid_four{
+        .parrafo_grid_franquicias {
+            width: 100px;
+            height: 100px;
+            font-size: .500rem;
+        }
+    }
+    .parrafo_franquicias {
+        top: 70px;
+    }
+    main{
+        .img_franquicia {
+        top: 10px;
+    }
+    } 
+    .contenedor_parrafo_form {
+        font-size: .6125rem;
+    }
+    .input_franquicias {
+        width: 350px
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        font-size: .5625rem;
+    }
+    .ctndo_encuesta {
+            .encuesta_yellow {
+            font-size: 2rem;
+            }
+    }
+    .ctnedor_parrafo {
+        font-size: .4063rem;
+    }
+    .formu {
+        font-size: 1rem;
+    }
+    .contenedor_opciones {
+        font-size: .625rem;
+    }
+    .footer_encuesta {
+        top: 350px;
+    }
+
 }

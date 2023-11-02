@@ -1,5 +1,83 @@
 @media(max-width:325px){
     .parrafo_principal {
         font-size: map-get($map: $font-size, $key: font-6px);
+        width: 70%;
+        left: 35px;
+    }
+    .menu_card {
+        width: 200px;
+        height: 450px;
+        .img_menu {
+            height: 170px;
+        }
+    }
+    .parrafo_producto {
+        width: 60%;
+        line-height: 20px;
+    }
+    .corazon {
+        bottom: 139px;
+        left: 50px;
+    }
+    .form {
+        left: -20px;
+    }
+    .h1_index{
+        left: 35px;
+        .comida_yellow {
+            font-size:map-get($map: $font-size, $key: font-9px) ;
+        }
+    } 
+    .btn_ordenar {
+        left: 35px
+    }
+
+    
+    /*locales*/
+    main{
+        .grid_locales{
+            .contenedor_locales {
+                .nombre_locales {
+                    font-size: 1.25rem;
+                }
+            }
+        }  
+    }  
+    /*novedades*/
+    .grid_novedades{
+        .contenedor_nov{
+            .img_nov {
+                height: 200px;
+            }
+        }
+    }  
+    .contenedor_titulo_novedades{
+        .titulo_novedades{
+            font-size: 2.8125rem;
+        }
+    }
+    /*franquicias*/
+    .input_franquicias {
+        width: 230px;
+    }
+    .h1_franqucias {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.4125rem;
+    }
+    /*encuesta*/
+    .ctndo_encuesta {
+        .encuesta_yellow {
+            font-size: 1rem;
+        }
+    }
+    .formu {
+        font-size: .625rem;
+    }
+    .contenedor_opciones {
+        font-size: .375rem;
+    }
+    /*footer*/
+    .contenedor_items {
+        flex-direction: column-reverse;
     }
 }
