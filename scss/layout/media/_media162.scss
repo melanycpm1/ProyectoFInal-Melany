@@ -1,0 +1,22 @@
+@media(max-width:162px){
+    .contenedor_titulo_principal {
+        .h1_franqucias {
+            font-size:map-get($map: $font-size, $key:font-9px );
+        }
+    }
+    .grid_four{
+        .parrafo_grid_franquicias {
+            width: 25px;
+            height: 25px;
+        }
+    } 
+    .input_franquicias {
+        width: 50px;
+    }
+    .footer{
+        .contenedor_items {
+            margin-left: 0;
+        }
+    } 
+    
+}

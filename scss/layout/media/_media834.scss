@@ -12,16 +12,16 @@
     }
     /*formulario*/
     .ctndo_encuesta {
-        font-size: .9375rem;
+        font-size: map-get($map: $font-size, $key:font-13px );
     }
     .ctnedor_parrafo {
-        font-size: .75rem;
+        font-size: map-get($map: $font-size, $key:font-13px );
     }
     .formu {
-        font-size: 1.25rem;
+        font-size: map-get($map: $font-size, $key:font-20px );
     }
     .contenedor_opciones {
-        font-size: .75rem;
+        font-size: map-get($map: $font-size, $key: font-11px);
     }
     
     /*locales*/
@@ -30,7 +30,7 @@
         .grid_locales{
             .contenedor_locales{
                 .nombre_locales {
-                    font-size: .9375rem;
+                    font-size: map-get($map: $font-size, $key: font-13px);
                 }
             }
         }  
@@ -39,7 +39,7 @@
         .grid_locales {
             .contenedor_locales{
                 .direccion_locales {
-                    font-size: .625rem;
+                    font-size: map-get($map: $font-size, $key:font-11px );
                 }
             }
         } 
@@ -55,7 +55,7 @@
     .contenedor_titulo_principal{
         .parrafo_franquicias {
             top: 50px;
-        font-size: .8125rem;
+            font-size: map-get($map: $font-size, $key: font-13px);
         }
     }
     .titulo_franquicias {

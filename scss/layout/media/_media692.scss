@@ -41,10 +41,10 @@
         .grid_locales{
             .contenedor_locales{
                 .nombre_locales {
-                    font-size: .625rem;
+                    font-size: map-get($map: $font-size, $key: font-11px);
                 }
                 .direccion_locales {
-                    font-size: .5rem;
+                    font-size: map-get($map: $font-size, $key:font-9px );
                 }
                 .grid_locales {
                     top: 300px;

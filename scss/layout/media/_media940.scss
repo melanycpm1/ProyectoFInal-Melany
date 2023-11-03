@@ -76,10 +76,10 @@
         .contenedor_nov{
             .contenedor_texto_novedades{
                 .novedades {
-                    font-size: .9375rem;
+                    font-size: map-get($map: $font-size, $key: font-13px);
                 }
                 .parrafo_novedades {
-                    font-size: .5rem;
+                    font-size: map-get($map: $font-size, $key:font-9px );
                 }
             }
         }

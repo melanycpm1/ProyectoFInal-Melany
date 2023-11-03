@@ -36,7 +36,7 @@
         .grid_locales{
             .contenedor_locales {
                 .direccion_locales {
-                    font-size: .375rem;
+                    font-size: map-get($map: $font-size, $key:font-6px );
                 
                 }
             }
@@ -55,40 +55,43 @@
         .parrafo_grid_franquicias {
             width: 100px;
             height: 100px;
-            font-size: .500rem;
+            font-size: map-get($map: $font-size, $key:font-9px );
         }
     }
-    .parrafo_franquicias {
-        top: 70px;
+    .contenedor_titulo_principal{
+        .parrafo_franquicias {
+            top: 70px;
+        }
     }
+    
     main{
         .img_franquicia {
         top: 10px;
     }
     } 
     .contenedor_parrafo_form {
-        font-size: .6125rem;
+        font-size:map-get($map: $font-size, $key:font-9px);
     }
     .input_franquicias {
         width: 350px
     }
     /*encuesta*/
     .ctndo_encuesta {
-        font-size: .5625rem;
+        font-size: map-get($map: $font-size, $key:font-9px );
     }
     .ctndo_encuesta {
             .encuesta_yellow {
-            font-size: 2rem;
+            font-size: map-get($map: $font-size, $key:font-30px );
             }
     }
     .ctnedor_parrafo {
-        font-size: .4063rem;
+        font-size: map-get($map: $font-size, $key:font-6px );
     }
     .formu {
-        font-size: 1rem;
+        font-size: map-get($map: $font-size, $key:font-17px );
     }
     .contenedor_opciones {
-        font-size: .625rem;
+        font-size: map-get($map: $font-size, $key:font-11px );
     }
     .footer_encuesta {
         top: 350px;

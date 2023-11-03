@@ -70,12 +70,12 @@
         .parrafo_grid_franquicias {
                 width: 130px;
                 height: 130px;
-                font-size: .700rem;
+                font-size: map-get($map: $font-size, $key: font-11px);
         }
     }
     .contenedor_titulo_principal{
         .parrafo_franquicias {
-                font-size: .6125rem;
+                font-size: map-get($map: $font-size, $key:font-9px );
         }
     }
     .titulo_franquicias {
@@ -89,9 +89,9 @@
     }
     /*encuesta*/
     .ctndo_encuesta {
-        font-size: .625rem;
+        font-size:map-get($map: $font-size, $key:font-11px );
     }
     .ctnedor_parrafo {
-        font-size: .4375rem;
+        font-size: map-get($map: $font-size, $key:font-6px );
     }
 }

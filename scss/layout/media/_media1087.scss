@@ -62,7 +62,7 @@
         .grid_locales{
             .contenedor_locales{
                 .nombre_locales {
-                    font-size: 20px;
+                    font-size: map-get($map: $font-size, $key:font-20px );
                 }
             }
         }
@@ -80,7 +80,7 @@
             .contenedor_texto_novedades{
                 .novedades {
                     font-family: 'Rubik', sans-serif;
-                    font-size: 1.25rem;
+                    font-size: map-get($map: $font-size, $key: font-20px);
                 }
             }
         }
@@ -92,7 +92,7 @@
                 .parrafo_novedades {
                     margin-top: 4%;
                     font-family: 'Lora', serif;
-                    font-size: .625rem;
+                    font-size: map-get($map: $font-size, $key: font-11px);
                 }
             }
         }
@@ -103,7 +103,7 @@
         .parrafo_grid_franquicias {
             width: 200px;
             height: 200px;
-            font-size: 1rem;
+            font-size: map-get($map: $font-size, $key:font-17px );
         }
     }
     .titulo_franquicias {
@@ -114,18 +114,18 @@
     }
     .contenedor_titulo_principal{
         .parrafo_franquicias {
-            font-size: .9375rem;
+            font-size: map-get($map: $font-size, $key: font-13px);
         }
     }
     
     /*encuesta*/
     .ctndo_encuesta{
         .encuesta_yellow {
-            font-size: 3.200rem;
+            font-size: map-get($map: $font-size, $key:font-50px );
         }
     }
     
     .ctnedor_parrafo {
-        font-size: .945rem;
+        font-size: map-get($map: $font-size, $key:font-13px);
     }
 }
